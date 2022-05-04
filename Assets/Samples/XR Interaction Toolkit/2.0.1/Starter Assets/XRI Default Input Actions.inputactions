@@ -1086,6 +1086,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Toggle Path ",
+                    "type": "Button",
+                    "id": "1d0f4bb0-58f8-448b-9f9a-9e66ac9fef09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1097,6 +1106,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Toggle Performance",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba1e8ea3-0f59-4df9-94af-c6e1af6d713d",
+                    "path": "<ViveController>{RightHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Toggle Path ",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

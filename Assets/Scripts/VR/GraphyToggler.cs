@@ -9,7 +9,6 @@ public class GraphyToggler : MonoBehaviour
 {
     [SerializeField] private InputActionProperty toggleReference;
 
-    private bool _GraphyEnabled = false;
     private void Awake()
     {
         toggleReference.action.started += ToggleGraphy;
