@@ -7,14 +7,14 @@ using UnityEngine.InputSystem;
 public class NavigationDebugger : MonoBehaviour
 {
     [SerializeField] private InputActionProperty toggleReference;
-    [SerializeField]
-    private NavMeshAgent agent;
+    [SerializeField] private NavMeshAgent agent;
+    [SerializeField] private float updateDelay = 0.2f;
 
     private LineRenderer _lineRenderer;
     
 
     private bool _debug = true;
-
+    private float _lastTime = 0;
 
     private void Awake()
     {
@@ -25,6 +25,7 @@ public class NavigationDebugger : MonoBehaviour
         _lineRenderer = GetComponent<LineRenderer>();
 
         toggleReference.action.started += ToggleDebug;
+        if (_debug) DisplayAgentPath();
     }
     private void OnDestroy()
     {
@@ -33,18 +34,23 @@ public class NavigationDebugger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_debug)
+        if (_debug && Time.time >= _lastTime + updateDelay)
         {
+            _lastTime = Time.time;
             if (agent.hasPath)
             {
-                _lineRenderer.positionCount = agent.path.corners.Length;
-                _lineRenderer.SetPositions(agent.path.corners);
-                _lineRenderer.enabled = true;
+                DisplayAgentPath();
             }
         }
-        
-
     }
+
+    private void DisplayAgentPath()
+    {
+        _lineRenderer.positionCount = agent.path.corners.Length;
+        _lineRenderer.SetPositions(agent.path.corners);
+        _lineRenderer.enabled = true;
+    }
+
     public void ToggleDebug()
     {
         if (_debug) _lineRenderer.enabled = false;

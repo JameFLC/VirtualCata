@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class DoorOpeningStates : MonoBehaviour
 {
-
+    [SerializeField] private float openingAngle = 0;
 
     private HingeJoint _hingeJoint;
     private JointSpring _defaultSpring;
-    private float _limitMax;
+
 
     // Start is called before the first frame update
     void Start()
     {
         _hingeJoint = GetComponent<HingeJoint>();
         _defaultSpring = _hingeJoint.spring;
-        _limitMax = _hingeJoint.limits.max;
+
 
     }
     public void SetDoorOpening(float openingForce)
     {
         JointSpring spring = _defaultSpring;
         spring.spring = openingForce;
-        spring.targetPosition = _limitMax;
+        spring.targetPosition = openingAngle;
         _hingeJoint.spring = spring;
     }
     public void SetDoorClosing(float openingForce)

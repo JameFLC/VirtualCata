@@ -45,6 +45,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63bf98db790319d4eaeee51822c2e865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toggleReference:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Toggle Reference
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 39b8ad11-3cae-4823-b377-188bded1d924
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   agent: {fileID: 0}
 --- !u!120 &8211237473077637361
 LineRenderer:

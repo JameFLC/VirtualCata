@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7585799712483349110}
   - component: {fileID: 2484904542347669902}
   - component: {fileID: 6600049734433663076}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Left Frame
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 647032304630657582}
   - component: {fileID: 6020039883451889096}
   - component: {fileID: 4589573473790476827}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Top Frame
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1099404782494751444}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Physics Door
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2979184474794758637}
   - component: {fileID: 5943912906745872334}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: Door AI Zone
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 9053189566914080689}
   - component: {fileID: 2536578149635511202}
   - component: {fileID: 2652775184364469749}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Right Frame
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 2103378519}
   - component: {fileID: 2103378520}
   - component: {fileID: 2103378521}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Door
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 8095235557029495545}
   - component: {fileID: 8008832646200270832}
   - component: {fileID: 6798026571854228767}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Handle
   m_TagString: Door
   m_Icon: {fileID: 0}
