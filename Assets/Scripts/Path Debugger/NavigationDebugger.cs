@@ -13,7 +13,7 @@ public class NavigationDebugger : MonoBehaviour
     private LineRenderer _lineRenderer;
     
 
-    private bool _debug = true;
+    private bool _debug = false;
     private float _lastTime = 0;
 
     private void Awake()
@@ -26,6 +26,7 @@ public class NavigationDebugger : MonoBehaviour
 
         toggleReference.action.started += ToggleDebug;
         if (_debug) DisplayAgentPath();
+        _lineRenderer.enabled = _debug; 
     }
     private void OnDestroy()
     {

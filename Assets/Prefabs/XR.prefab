@@ -1286,7 +1286,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
+  m_FocalLength: 20.78461
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1295,7 +1295,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
-  field of view: 60
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1411,17 +1411,17 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
-  m_Dithering: 0
+  m_Dithering: 1
   m_ClearDepth: 1
   m_AllowXRRendering: 1
   m_RequiresDepthTexture: 0
@@ -2373,6 +2373,7 @@ GameObject:
   - component: {fileID: 8505102390055480286}
   - component: {fileID: 8505102390055480281}
   - component: {fileID: 8505102390055480287}
+  - component: {fileID: 417309729366201019}
   m_Layer: 6
   m_Name: XR Origin
   m_TagString: Untagged
@@ -2459,6 +2460,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325ec5a5c3b7b7043adb34ed552f353a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &417309729366201019
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8505102390055480282}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.05, y: 1, z: 0.05}
+  m_MoveThreshold: 1.42
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1, z: 0}
+  m_TimeToStationary: 2.1
 --- !u!1 &8505102390281399840
 GameObject:
   m_ObjectHideFlags: 0

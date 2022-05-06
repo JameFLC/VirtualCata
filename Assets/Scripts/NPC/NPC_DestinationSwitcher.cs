@@ -16,7 +16,7 @@ public class NPC_DestinationSwitcher : MonoBehaviour
     private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
-        _agent.destination = waypoints[0].position;
+        _lastTime -= updateDelay;
     }
     int count = 0;
     // Update is called once per frame
@@ -24,9 +24,14 @@ public class NPC_DestinationSwitcher : MonoBehaviour
     {
         if (Time.time >= _lastTime + updateDelay)
         {
-            _lastTime = Time.time;
-            _agent.destination = waypoints[count % waypoints.Count].position;
-            ++count;
+            GoToNextWaypoint();
         }
+    }
+
+    private void GoToNextWaypoint()
+    {
+        _lastTime = Time.time;
+        _agent.destination = waypoints[count % waypoints.Count].position;
+        ++count;
     }
 }

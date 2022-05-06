@@ -11,6 +11,7 @@ public class DoorOpeningAnimation : MonoBehaviour
     private DoorOpeningStates _doorOpeningStates;
     private NavMeshObstacle _navMeshObstacle;
     private bool isDoorOpening = false;
+    private const bool _animationDisableObstacle = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,14 +35,16 @@ public class DoorOpeningAnimation : MonoBehaviour
         _doorOpeningStates.SetDoorOpening(Force);
 
         yield return new WaitForSeconds(Time/2.0f);
-        _navMeshObstacle.enabled = false;
+        if (_animationDisableObstacle)
+            _navMeshObstacle.enabled = false;
 
         yield return new WaitForSeconds(Time/2.0f);
         _doorOpeningStates.SetDoorClosing(Force);
 
         yield return new WaitForSeconds(Time);
         _doorOpeningStates.SetDoorNeutral();
-        _navMeshObstacle.enabled = true;
+        if (_animationDisableObstacle)
+            _navMeshObstacle.enabled = true;
 
 
         isDoorOpening = false;
