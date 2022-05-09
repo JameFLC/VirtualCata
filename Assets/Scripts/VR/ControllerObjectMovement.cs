@@ -7,9 +7,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
 public class ControllerObjectMovement : MonoBehaviour
 {
-    [SerializeField] private InputActionProperty m_RightHandSnapTurnAction;
     [SerializeField] private GameObject followObject;
-    [SerializeField] private CharacterController playerCC;
     [SerializeField] private float controllerMass = 20.0f;
     [Header("PID")]
     [SerializeField] private float moveFrequency = 50.0f;
