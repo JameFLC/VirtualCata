@@ -118,20 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eea91aa847d32843b458dbb5b3782fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RightHandSnapTurnAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Right Hand Snap Turn
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 8bab48ff-b538-446e-94e3-e7996f8d73c5
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   followObject: {fileID: 8505102389238102868}
-  playerCC: {fileID: 8505102390055480286}
   controllerMass: 20
   moveFrequency: 50
   moveDamping: 0.5
@@ -455,20 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eea91aa847d32843b458dbb5b3782fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RightHandSnapTurnAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Right Hand Snap Turn
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 343e8057-aa72-499b-9c17-a936a7ddd508
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 0}
   followObject: {fileID: 8505102389570073546}
-  playerCC: {fileID: 8505102390055480286}
   controllerMass: 20
   moveFrequency: 50
   moveDamping: 0.5
@@ -2376,7 +2350,7 @@ GameObject:
   - component: {fileID: 417309729366201019}
   m_Layer: 6
   m_Name: XR Origin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
