@@ -1210,6 +1210,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Evacuation",
+                    "type": "Button",
+                    "id": "50a34e00-65cb-4b63-b419-fa9d9fdc38cf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1232,6 +1241,28 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Toggle Path ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4db428c7-5d1f-44de-9d45-1f0ae2084338",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Path ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d738425-cca7-4eca-9482-ff269da55a75",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Evacuation",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

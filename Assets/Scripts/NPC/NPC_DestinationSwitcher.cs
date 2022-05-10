@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,33 +6,58 @@ using UnityEngine.AI;
 public class NPC_DestinationSwitcher : MonoBehaviour
 {
     [SerializeField] private float updateDelay = 3f;
-    [SerializeField] private List<Transform> waypoints = new List<Transform>();
-
+    [SerializeField] private List<Transform> defaultWaypoints = new List<Transform>();
+    [SerializeField] private List<Transform> evacuationWaypoints = new List<Transform>();
 
 
     private NavMeshAgent _agent;
-
+    int _normalCount = 0;
+    int _evacuationCount = 0;
     private float _lastTime = 0;
-    // Start is called before the first frame update
-    private void Start()
+    private bool _evacuation = false;
+    private void Awake()
     {
+        EventManager.instance.OnStartEvacuation += Evacuate;
         _agent = GetComponent<NavMeshAgent>();
         _lastTime -= updateDelay;
     }
-    int count = 0;
+
+    
+
+    private void OnDestroy()
+    {
+        EventManager.instance.OnStartEvacuation -= Evacuate;
+
+    }
+    
     // Update is called once per frame
     void Update()
     {
         if (Time.time >= _lastTime + updateDelay)
         {
-            GoToNextWaypoint();
+            if (_evacuation)
+            {
+                GoToNextEvacuationWaypoint();
+                return;
+            }
+            GoToNextNormalWaypoint();
         }
     }
-
-    private void GoToNextWaypoint()
+    private void Evacuate()
+    {
+        _evacuation = true;
+        GoToNextEvacuationWaypoint();
+    }
+    private void GoToNextNormalWaypoint()
     {
         _lastTime = Time.time;
-        _agent.destination = waypoints[count % waypoints.Count].position;
-        ++count;
+        _agent.destination = defaultWaypoints[_normalCount % defaultWaypoints.Count].position;
+        ++_normalCount;
+    }
+    private void GoToNextEvacuationWaypoint()
+    {
+        _lastTime = Time.time;
+        _agent.destination = evacuationWaypoints[_evacuationCount % evacuationWaypoints.Count].position;
+        ++_evacuationCount;
     }
 }
