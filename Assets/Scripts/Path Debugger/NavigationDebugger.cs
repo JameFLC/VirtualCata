@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class NavigationDebugger : MonoBehaviour
 {
-    [SerializeField] private InputActionProperty toggleReference;
+
     [SerializeField] private NavMeshAgent agent;
     [SerializeField] private float updateDelay = 0.2f;
 
@@ -24,13 +24,13 @@ public class NavigationDebugger : MonoBehaviour
         }
         _lineRenderer = GetComponent<LineRenderer>();
 
-        toggleReference.action.started += ToggleDebug;
+        EventManager.instance.OnTogglePathDebug += ToggleDebug;
         if (_debug) DisplayAgentPath();
         _lineRenderer.enabled = _debug; 
     }
     private void OnDestroy()
     {
-        toggleReference.action.started -= ToggleDebug;
+        EventManager.instance.OnTogglePathDebug -= ToggleDebug;
     }
     // Update is called once per frame
     void Update()

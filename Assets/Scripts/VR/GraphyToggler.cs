@@ -8,10 +8,13 @@ using Tayx.Graphy;
 public class GraphyToggler : MonoBehaviour
 {
     [SerializeField] private InputActionProperty toggleReference;
-
+    private CanvasGroup _canvasGroup;
     private void Awake()
     {
         toggleReference.action.started += ToggleGraphy;
+        _canvasGroup = GetComponent<CanvasGroup>();
+        _canvasGroup.interactable = false;
+        _canvasGroup.alpha = 0f;
     }
     private void OnDestroy()
     {
@@ -20,6 +23,8 @@ public class GraphyToggler : MonoBehaviour
     private void ToggleGraphy(InputAction.CallbackContext context)
     {
         GraphyManager.Instance.ToggleActive();
+
+        _canvasGroup.interactable = !_canvasGroup.interactable;
+        _canvasGroup.alpha = Mathf.Abs(_canvasGroup.alpha-1);
     }
-    
 }

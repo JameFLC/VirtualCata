@@ -1194,7 +1194,7 @@
             "id": "40271abb-2d60-478a-99cb-df8714cae7fa",
             "actions": [
                 {
-                    "name": "Toggle Performance",
+                    "name": "Toggle Debug",
                     "type": "Button",
                     "id": "32cf9d26-ce19-4afc-b0ef-15674f9e4b62",
                     "expectedControlType": "Button",
@@ -1229,7 +1229,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Toggle Performance",
+                    "action": "Toggle Debug",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

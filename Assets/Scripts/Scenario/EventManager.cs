@@ -9,7 +9,7 @@ public class EventManager : MonoBehaviour
 
 
     public event Action OnStartEvacuation;
-    
+    public event Action OnTogglePathDebug;
     // Singleton Setup
     private void Awake()
     {
@@ -24,8 +24,6 @@ public class EventManager : MonoBehaviour
             Destroy(this);
         }
     }
-    public void StartEvacuation()
-    {
-        OnStartEvacuation?.Invoke();
-    }
+    public void StartEvacuation() => OnStartEvacuation?.Invoke();
+    public void TogglePathDebug() => OnTogglePathDebug?.Invoke();
 }
