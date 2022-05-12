@@ -294,7 +294,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1998948482718805235}
   - component: {fileID: 5344724122999850583}
-  - component: {fileID: 628629391944054502}
   m_Layer: 0
   m_Name: SceneTransition Manager
   m_TagString: Untagged
@@ -327,18 +326,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 354d7b79e7230234c80b13d9136342ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &628629391944054502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347410195408593631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46e18220b8fad354582fd31f89116434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1476789113362973958
@@ -1285,8 +1272,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 628629391944054502}
-        m_TargetAssemblyTypeName: SceneTransitionAsync, Assembly-CSharp
+      - m_Target: {fileID: 5344724122999850583}
+        m_TargetAssemblyTypeName: SceneTransitionSimple, Assembly-CSharp
         m_MethodName: GoToPreviousScene
         m_Mode: 1
         m_Arguments:
@@ -1419,8 +1406,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 628629391944054502}
-        m_TargetAssemblyTypeName: SceneTransitionAsync, Assembly-CSharp
+      - m_Target: {fileID: 5344724122999850583}
+        m_TargetAssemblyTypeName: SceneTransitionSimple, Assembly-CSharp
         m_MethodName: GoToNextScene
         m_Mode: 1
         m_Arguments:

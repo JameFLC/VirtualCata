@@ -12,6 +12,10 @@ public class MoveTo : MonoBehaviour
 
     private Vector3 _originalPosition = Vector3.zero;
     private Tween _curentTween;
+    private void Start()
+    {
+        _originalPosition = transform.position;
+    }
     public void BeginMoveEase()
     {
         KillCurrentTween();
