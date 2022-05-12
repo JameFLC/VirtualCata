@@ -19,13 +19,12 @@ public class MoveTo : MonoBehaviour
     public void BeginMoveEase()
     {
         KillCurrentTween();
-        _originalPosition = transform.position;
         _curentTween = transform.DOMove(destination.position, duration).SetEase(easing, overshoot);
     }
     public void BeginMoveSnap()
     {
         KillCurrentTween();
-        _originalPosition = transform.position;
+
         transform.position = destination.position;
     }
     public void ResetPositionEase()
