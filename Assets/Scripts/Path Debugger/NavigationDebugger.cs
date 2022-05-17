@@ -25,8 +25,8 @@ public class NavigationDebugger : MonoBehaviour
         _lineRenderer = GetComponent<LineRenderer>();
 
         EventManager.instance.OnTogglePathDebug += ToggleDebug;
-        if (_debug) DisplayAgentPath();
-        _lineRenderer.enabled = _debug; 
+
+        _lineRenderer.enabled = false; 
     }
     private void OnDestroy()
     {
