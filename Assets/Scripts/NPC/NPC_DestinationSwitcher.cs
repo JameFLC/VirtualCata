@@ -5,9 +5,9 @@ using UnityEngine;
 using UnityEngine.AI;
 public class NPC_DestinationSwitcher : MonoBehaviour
 {
-    [SerializeField] private float updateDelay = 3f;
-    [SerializeField] private List<Transform> defaultWaypoints = new List<Transform>();
-    [SerializeField] private List<Transform> evacuationWaypoints = new List<Transform>();
+    public float updateDelay = 3f;
+    public List<Transform> defaultWaypoints = new List<Transform>();
+    public List<Transform> evacuationWaypoints = new List<Transform>();
 
 
     private NavMeshAgent _agent;
@@ -51,13 +51,13 @@ public class NPC_DestinationSwitcher : MonoBehaviour
     private void GoToNextNormalWaypoint()
     {
         _lastTime = Time.time;
-        _agent.destination = defaultWaypoints[_normalCount % defaultWaypoints.Count].position;
+        if (defaultWaypoints.Count > 0) _agent.destination = defaultWaypoints[_normalCount % defaultWaypoints.Count].position;
         ++_normalCount;
     }
     private void GoToNextEvacuationWaypoint()
     {
         _lastTime = Time.time;
-        _agent.destination = evacuationWaypoints[_evacuationCount % evacuationWaypoints.Count].position;
+        if (evacuationWaypoints.Count > 0) _agent.destination = evacuationWaypoints[_evacuationCount % evacuationWaypoints.Count].position;
         ++_evacuationCount;
     }
 }
