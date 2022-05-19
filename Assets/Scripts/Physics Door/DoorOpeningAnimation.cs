@@ -6,12 +6,12 @@ using UnityEngine.AI;
 public class DoorOpeningAnimation : MonoBehaviour
 {
     [SerializeField] private float Time = 2;
-    [SerializeField] private float Force = 3;
+    [SerializeField] protected float Force = 3;
 
-    private DoorOpeningStates _doorOpeningStates;
-    private NavMeshObstacle _navMeshObstacle;
-    private bool isDoorOpening = false;
-    private const bool _animationDisableObstacle = true;
+    protected DoorOpeningStates _doorOpeningStates;
+    protected NavMeshObstacle _navMeshObstacle;
+    protected bool isDoorOpening = false;
+    protected const bool _animationDisableObstacle = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class DoorOpeningAnimation : MonoBehaviour
         _navMeshObstacle = GetComponent<NavMeshObstacle>();
     }
 
-    public void OpenDoor()
+    public virtual void OpenDoor()
     {
         if (!isDoorOpening)
         {
