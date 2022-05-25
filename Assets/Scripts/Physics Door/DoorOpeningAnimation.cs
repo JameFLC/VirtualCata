@@ -23,25 +23,38 @@ public class DoorOpeningAnimation : MonoBehaviour
     {
         if (!isDoorOpening)
         {
-            StartCoroutine(OpeningAnimation());
+            StartCoroutine(OpeningAnimation(Force, Time / 2.0f));
         }
        
     }
-
-    private IEnumerator OpeningAnimation()
+    public virtual void OpenDoor(float force)
+    {
+        if (!isDoorOpening)
+        {
+            StartCoroutine(OpeningAnimation(force, Time / 2.0f));
+        }
+    }
+    public virtual void OpenDoor(float force, float time)
+    {
+        if (!isDoorOpening)
+        {
+            StartCoroutine(OpeningAnimation(force,time));
+        }
+    }
+    private IEnumerator OpeningAnimation(float force, float time)
     {
         isDoorOpening = true;
         
-        _doorOpeningStates.SetDoorOpening(Force);
+        _doorOpeningStates.SetDoorOpening(force);
 
-        yield return new WaitForSeconds(Time/2.0f);
+        yield return new WaitForSeconds(time);
         if (_animationDisableObstacle)
             _navMeshObstacle.enabled = false;
 
-        yield return new WaitForSeconds(Time/2.0f);
-        _doorOpeningStates.SetDoorClosing(Force);
+        yield return new WaitForSeconds(time/2);
+        _doorOpeningStates.SetDoorClosing(force);
 
-        yield return new WaitForSeconds(Time);
+        yield return new WaitForSeconds(time*2);
         _doorOpeningStates.SetDoorNeutral();
         if (_animationDisableObstacle)
             _navMeshObstacle.enabled = true;
