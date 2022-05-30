@@ -35,6 +35,7 @@ public class NPC_DestinationSwitcher : MonoBehaviour
     {
         if (Time.time >= _lastTime + updateDelay)
         {
+            _lastTime = Time.time;
             if (_evacuation)
             {
                 GoToNextEvacuationWaypoint();
@@ -49,14 +50,12 @@ public class NPC_DestinationSwitcher : MonoBehaviour
         GoToNextEvacuationWaypoint();
     }
     private void GoToNextNormalWaypoint()
-    {
-        _lastTime = Time.time;
+    {  
         if (defaultWaypoints.Count > 0) _agent.destination = defaultWaypoints[_normalCount % defaultWaypoints.Count].position;
         ++_normalCount;
     }
     private void GoToNextEvacuationWaypoint()
     {
-        _lastTime = Time.time;
         if (evacuationWaypoints.Count > 0) _agent.destination = evacuationWaypoints[_evacuationCount % evacuationWaypoints.Count].position;
         ++_evacuationCount;
     }
