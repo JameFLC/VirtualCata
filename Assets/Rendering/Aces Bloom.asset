@@ -64,10 +64,10 @@ MonoBehaviour:
     m_Value: 1
   skipIterations:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0
   dirtTexture:
     m_OverrideState: 0
-    m_Value: {fileID: 2800000, guid: 06e4a78c75e10c145a9156e32089ec9c, type: 3}
+    m_Value: {fileID: 2800000, guid: e707a5041c96166428d6aaef3e5c6c53, type: 3}
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 238.45
