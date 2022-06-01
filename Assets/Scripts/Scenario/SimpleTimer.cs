@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class BasicTimer : MonoBehaviour
+public class SimpleTimer : MonoBehaviour
 {
     [SerializeField] protected bool startTimerOnStartup = false;
     [SerializeField] protected float timerLengh = 10;
