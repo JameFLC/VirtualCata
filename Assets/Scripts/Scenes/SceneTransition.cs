@@ -4,7 +4,19 @@ using UnityEngine.SceneManagement;
 public abstract class SceneTransition : MonoBehaviour
 {
     public static SceneTransition instance;
-
+    protected virtual void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
+            //Rest of Awake
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
 
     public abstract void GoToNextScene();
     public abstract void GoToPreviousScene();
@@ -19,17 +31,5 @@ public abstract class SceneTransition : MonoBehaviour
     {
         return SceneManager.GetSceneByBuildIndex(index).name;
     }
-    protected virtual void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(this.gameObject);
-            //Rest of Awake
-        }
-        else
-        {
-            Destroy(this);
-        }
-    }
+    
 }

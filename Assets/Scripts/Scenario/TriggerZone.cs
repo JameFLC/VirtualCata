@@ -7,9 +7,9 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Collider))]
 public class TriggerZone : MonoBehaviour
 {
-    
+
     [TagSelector] public string[] triggerTags;
-    
+
     public UnityEvent OnZoneEnter;
     public UnityEvent OnZoneExit;
 
@@ -24,10 +24,12 @@ public class TriggerZone : MonoBehaviour
             {
                 Debug.Log("Object of tag " + triggerTags + " entered zone");
                 OnZoneEnter.Invoke();
+                TriggerEntered();
             }
         }
-        
+
     }
+    
     private void OnTriggerExit(Collider other)
     {
         foreach (var triggerTag in triggerTags)
@@ -36,9 +38,12 @@ public class TriggerZone : MonoBehaviour
             {
                 Debug.Log("Object of tag " + triggerTags + " exited zone");
                 OnZoneExit.Invoke();
+                TriggerExited();
             }
         }
         
     }
+    protected virtual void TriggerEntered() { }
+    protected virtual void TriggerExited() { }
 }
 
