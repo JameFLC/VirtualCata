@@ -106,7 +106,7 @@ PrefabInstance:
     - target: {fileID: 8322501635918646479, guid: d1baa79eb4ebfed40ae7dcfa3a50b239, type: 3}
       propertyPath: m_SpriteState.m_DisabledSprite
       value: 
-      objectReference: {fileID: -1595954541, guid: cdc868a4e30de494ba7c01a0be5a8000, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8322501635918646479, guid: d1baa79eb4ebfed40ae7dcfa3a50b239, type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 

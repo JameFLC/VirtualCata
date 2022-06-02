@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.XR.CoreUtils;
-using UnityEngine.XR.Interaction.Toolkit;
-using UnityEngine.AI;
-public class UIFollow : MonoBehaviour
+
+public class HUDFollow : MonoBehaviour
 {
 
     [SerializeField] private Camera cam;
@@ -19,8 +17,6 @@ public class UIFollow : MonoBehaviour
         if (cam == null)
             Destroy(this);
 
-
-
         _camTransform = cam.gameObject.transform;
 
     }
@@ -32,8 +28,6 @@ public class UIFollow : MonoBehaviour
     }
     void MoveAlongCamera()
     {
-
-
         float playerHeight = characterController.height;
         float camHeight = _camTransform.position.y;
 
