@@ -22,7 +22,7 @@ public class HUDAlertDisplayManager : MonoBehaviour
 
     private bool _isFading = false;
     private CanvasGroup _alertsGroup = null;
-    private Alerts lastAlert;
+    private AlertType lastAlert;
     private const float timeBuffer = 0.1f;
     // Start is called before the first frame update
     void Start()
@@ -40,7 +40,7 @@ public class HUDAlertDisplayManager : MonoBehaviour
 
     }
 
-    public void DisplayAlert(Alerts alert, string newText)
+    public void DisplayAlert(AlertType alert, string newText)
     {
         if (_isFading)
             return;
@@ -81,8 +81,9 @@ public class HUDAlertDisplayManager : MonoBehaviour
             return;
         _isFading = true;
 
-        ToogleAlertInteraction(alert, true);
+        //StartCoroutine(WaitToEnableAlertInteraction(alert));
         ToogleAlertVisibility(alert, true);
+        ToogleAlertInteraction(alert, transform);
 
         ToogleHudInteraction(true);
 
@@ -120,7 +121,7 @@ public class HUDAlertDisplayManager : MonoBehaviour
     }
     public void DisplaySimpleAlert(string newText)
     {
-        DisplayAlert(Alerts.Simple, newText);
+        DisplayAlert(AlertType.Simple, newText);
     }
     public void DisplaySimpleAlertNoFadeOut(string newText)
     {
@@ -131,16 +132,16 @@ public class HUDAlertDisplayManager : MonoBehaviour
     }
     public void DisplayConfirmAlert(string newText)
     {
-        DisplayAlert(Alerts.Confirm, newText);
+        DisplayAlert(AlertType.Confirm, newText);
     }
     public void DisplayChoiceAlert(string newText)
     {
-        DisplayAlert(Alerts.Choice, newText);
+        DisplayAlert(AlertType.Choice, newText);
     }
     public void DisplayButtonAlert(string newText)
     {
 
-        DisplayAlert(Alerts.Button, newText);
+        DisplayAlert(AlertType.Button, newText);
         ShowAlert(alertSimple);
     }
 
@@ -180,7 +181,7 @@ public class HUDAlertDisplayManager : MonoBehaviour
         TMPtext.text = newText;
 
     }
-    IEnumerator WaitToShowAlert(Alerts alert, string newText)
+    IEnumerator WaitToShowAlert(AlertType alert, string newText)
     {
         lastAlert = alert;
         
@@ -188,20 +189,22 @@ public class HUDAlertDisplayManager : MonoBehaviour
         Debug.Log("Fading In HUD");
         switch (alert)
         {
-            case Alerts.Simple:
+            case AlertType.Simple:
                 UpdateText(alertSimple, newText);
                 ShowAlert(alertSimple);
-                StartCoroutine(WaitToHideSimpleAlert());
+                if (simpleAlertDuration >= 0)
+                    StartCoroutine(WaitToHideSimpleAlert());
+               
                 break;
-            case Alerts.Confirm:
+            case AlertType.Confirm:
                 UpdateText(alertConfirm, newText);
                 ShowAlert(alertConfirm);
                 break;
-            case Alerts.Choice:
+            case AlertType.Choice:
                 UpdateText(alertChoice, newText);
                 ShowAlert(alertChoice);
                 break;
-            case Alerts.Button:
+            case AlertType.Button:
                 UpdateText(alertButton, newText);
                 ShowAlert(alertButton);
                 break;
@@ -210,7 +213,7 @@ public class HUDAlertDisplayManager : MonoBehaviour
     IEnumerator WaitToHideSimpleAlert()
     {
         yield return new WaitForSeconds(fadeInDuration + simpleAlertDuration);
-        if (lastAlert == Alerts.Simple)
+        if (lastAlert == AlertType.Simple)
         {
             HideAlerts();
         }
@@ -222,5 +225,10 @@ public class HUDAlertDisplayManager : MonoBehaviour
         UpdateText(alertSimple, newText);
         ShowAlert(alertSimple);
 
+    }
+    IEnumerator WaitToEnableAlertInteraction(RectTransform alert)
+    {
+        yield return new WaitForSeconds(fadeInDuration);
+        ToogleAlertInteraction(alert, true);
     }
 }
