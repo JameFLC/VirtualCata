@@ -51,8 +51,8 @@ public class HUDAlertDisplayManager : MonoBehaviour
     }
     public void HideAlerts()
     {
-        if (_isFading)
-            return;
+        //if (_isFading)
+        //    return;
         Debug.Log("Fading Out HUD");
         _isFading = true;
 
@@ -77,8 +77,9 @@ public class HUDAlertDisplayManager : MonoBehaviour
     }
     private void ShowAlert(RectTransform alert)
     {
-        if (_isFading)
-            return;
+       // if (_isFading)
+       //     return;
+
         _isFading = true;
 
         //StartCoroutine(WaitToEnableAlertInteraction(alert));

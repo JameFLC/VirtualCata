@@ -19,6 +19,7 @@ public class DebugToggler : MonoBehaviour
     private void OnDestroy()
     {
         toggleReference.action.started -= ToggleGraphy;
+
     }
     private void ToggleGraphy(InputAction.CallbackContext context)
     {

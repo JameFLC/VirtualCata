@@ -88,6 +88,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "TrackpadToutched",
+                    "type": "Button",
+                    "id": "9fca2963-2454-43e9-bd9b-2411f22c429a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -198,6 +207,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a019f27a-6131-4d83-aaaf-6b3963ea4749",
+                    "path": "<ViveController>{LeftHand}/trackpadTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackpadToutched",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -641,8 +661,8 @@
                     "id": "8e383b1a-270f-4c20-819b-89a59cffb498",
                     "path": "<XRController>{LeftHand}/Primary2DAxis",
                     "interactions": "",
-                    "processors": "StickDeadzone",
-                    "groups": "Continuous Move",
+                    "processors": "StickDeadzone(min=0.125,max=0.925)",
+                    "groups": "Continuous Move;Generic XR Controller",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -685,6 +705,15 @@
                     "type": "PassThrough",
                     "id": "57b2a1b4-3290-46d6-ac07-4854ee8f91b1",
                     "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackpadToutched",
+                    "type": "Button",
+                    "id": "60d5eb19-78b0-4eaf-a2c5-536118d5779e",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -798,6 +827,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30010d30-8c10-4b99-b9cb-3c527e5ab042",
+                    "path": "<ViveController>{RightHand}/trackpadTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackpadToutched",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
