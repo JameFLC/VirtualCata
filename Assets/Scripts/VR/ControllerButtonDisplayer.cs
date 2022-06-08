@@ -38,8 +38,8 @@ public class ControllerButtonDisplayer : MonoBehaviour
 
         triggerAction.action.performed += ReadTrigger;
 
-        triggerClickAction.action.started += ReadTriggerClick;
-        triggerClickAction.action.canceled += ReadTriggerClick;
+        //triggerClickAction.action.started += ReadTriggerClick;
+        //triggerClickAction.action.canceled += ReadTriggerClick;
 
         gripAction.action.started += ReadGrip;
         gripAction.action.canceled += ReadGrip;
@@ -84,6 +84,7 @@ public class ControllerButtonDisplayer : MonoBehaviour
             Debug.Log("Trigger " + triggerValue);
             trigger.localRotation= Quaternion.Euler(triggerValue * (MAX_ROTATION), 0, 0);
             _lastTriggerValue = triggerAction.action?.ReadValue<float>() ?? _lastTriggerValue;
+            trigger.DOKill();
         }
     }
     private void ReadTriggerClick(InputAction.CallbackContext context)

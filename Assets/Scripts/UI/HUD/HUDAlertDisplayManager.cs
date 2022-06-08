@@ -82,9 +82,9 @@ public class HUDAlertDisplayManager : MonoBehaviour
 
         _isFading = true;
 
-        //StartCoroutine(WaitToEnableAlertInteraction(alert));
+        StartCoroutine(WaitToEnableAlertInteraction(alert));
         ToogleAlertVisibility(alert, true);
-        ToogleAlertInteraction(alert, transform);
+        //ToogleAlertInteraction(alert, transform);
 
         ToogleHudInteraction(true);
 

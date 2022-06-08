@@ -131,4 +131,5 @@ public class HUDAlertManager : MonoBehaviour
         denyButton.onClick.RemoveAllListeners();
         simpleButton.onClick.RemoveAllListeners();
     }
+
 }

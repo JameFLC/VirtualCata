@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class CameraCenterer : MonoBehaviour
 {
-    [SerializeField] private Transform cam;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Camera cam;
+
+    private void Update()
     {
-        transform.localPosition = new Vector3(-cam.position.x, transform.position.y, -cam.position.z);
+        Vector3 camLocalPosition = cam.transform.localPosition;
+        if (camLocalPosition != Vector3.zero)
+        {
+            camLocalPosition.y = 0;
+            transform.localPosition -= camLocalPosition;
+            Debug.Log("Centered Player");
+            Destroy(this);
+        }
     }
 }
