@@ -120,31 +120,7 @@ public class HUDAlertDisplayManager : MonoBehaviour
 
         Debug.Log("Set " + alert + " alpha to " + group.alpha);
     }
-    public void DisplaySimpleAlert(string newText)
-    {
-        DisplayAlert(AlertType.Simple, newText);
-    }
-    public void DisplaySimpleAlertNoFadeOut(string newText)
-    {
-        if (_isFading)
-            return;
-        HideAlerts();
-        StartCoroutine(WaitToShowSimpleAlertNoFade(newText));
-    }
-    public void DisplayConfirmAlert(string newText)
-    {
-        DisplayAlert(AlertType.Confirm, newText);
-    }
-    public void DisplayChoiceAlert(string newText)
-    {
-        DisplayAlert(AlertType.Choice, newText);
-    }
-    public void DisplayButtonAlert(string newText)
-    {
 
-        DisplayAlert(AlertType.Button, newText);
-        ShowAlert(alertSimple);
-    }
 
     public float GetAlertSimpleDefaultDuration()
     {
