@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5f1f4c11609419946b4e45f065a4fedf
+guid: 1f85f1ba0afbfc148adda0e8bfb7688b
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
@@ -18,7 +18,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
-    motionNodeName: 
+    motionNodeName: <Root Transform>
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
@@ -34,7 +34,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -78,7 +107,21 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
+  referencedClips:
+  - 8bc055486e92ea74ba9f7f67745bcc52
+  - 89160efb1443ceb44a72621155472e21
+  - be0984f262018c84391b49b75695495d
+  - ba63ed0391adafe44b4a95c5545dbf24
+  - e54a00b4058cd1f42bc5369fb36587d3
+  - 5874aa61b0cff854782ef1c0ad94b267
+  - 29171bc8370e7134c931af22b8f80e6a
+  - e7f3efdf109165a46ac9509533de1f34
+  - 86e86d9eef90bb24caeef01aae7af699
+  - 23ec9d0979cc68343ad74d38eec00a9e
+  - c997d00d6e97ddf44bea693573733818
+  - db45c4bee9e41ed4c928a6d5b8aa5790
+  - 5f1f4c11609419946b4e45f065a4fedf
+  - bf2a36b5aaeefef4686b504d27f082a8
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
