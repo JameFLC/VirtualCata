@@ -3752,6 +3752,7 @@ GameObject:
   - component: {fileID: 8505102390055480286}
   - component: {fileID: 8505102390055480281}
   - component: {fileID: 8505102390055480287}
+  - component: {fileID: 6307633968061979762}
   - component: {fileID: 417309729366201019}
   m_Layer: 6
   m_Name: XR Origin
@@ -3839,6 +3840,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325ec5a5c3b7b7043adb34ed552f353a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6307633968061979762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8505102390055480282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884dae4bbe18c4942afc00465a8e852a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveProvider: {fileID: 8505102389244486399}
 --- !u!208 &417309729366201019
 NavMeshObstacle:
   m_ObjectHideFlags: 0

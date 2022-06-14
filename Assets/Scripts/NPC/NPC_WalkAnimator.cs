@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NPC_Animator : MonoBehaviour
+[RequireComponent(typeof(Animator))]
+public class NPC_WalkAnimator : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent agent;
 
