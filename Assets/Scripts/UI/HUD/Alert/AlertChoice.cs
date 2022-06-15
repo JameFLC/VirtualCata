@@ -5,11 +5,7 @@ using UnityEngine.Events;
 
 public class AlertChoice : Alert
 {
-    public Alert acceptAlert;
     [SerializeField] private UnityEvent OnAlertDenied;
-
-
-    
     public Alert denyAlert;
 
     private UnityEvent _subscribedEventDenied;

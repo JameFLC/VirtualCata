@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8039986731552553525}
   - component: {fileID: 8039986731552553483}
   - component: {fileID: 8039986731552553524}
+  - component: {fileID: 3738224915733295165}
   - component: {fileID: 8039986731552553522}
   - component: {fileID: 4677328860839472629}
   - component: {fileID: 7217246076360650055}
@@ -103,9 +104,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7e204b468cfbd445bff3108e9003ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateDelay: 20
+  updateDelay: 3
   defaultWaypoints: []
   evacuationWaypoints: []
+--- !u!114 &3738224915733295165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8039986731552553482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310d76b6af39da04b98262a5c8fdf369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayRange: {x: 3, y: 5}
 --- !u!114 &8039986731552553522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,11 +144,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8039986731552553482}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c51d76164861cbe468f2a19c7b7e48a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  priorityRange: {x: 10, y: 50}
 --- !u!95 &7217246076360650055
 Animator:
   serializedVersion: 4

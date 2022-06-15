@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(HUDAlertDisplayManager))]
@@ -13,6 +14,7 @@ public class HUDAlertManager : MonoBehaviour
     [SerializeField] Button simpleButton;
 
     private HUDAlertDisplayManager _displayManager;
+    private UnityEvent _simpleAlertEnd = new UnityEvent();
     // Start is called before the first frame update
     void Start()
     {
@@ -33,12 +35,13 @@ public class HUDAlertManager : MonoBehaviour
             Debug.Log("No Alert to display");
             return;
         }
-        RemoveButtonsListeners();
+        RemoveListeners();
 
-
+        
         switch (alert.GetAlertType())
         {
             case AlertType.Simple:
+                SetupAlertSimple(alert);
                 break;
             case AlertType.Confirm:
                 SetupAlertConfirm((AlertConfirm)alert);
@@ -58,18 +61,42 @@ public class HUDAlertManager : MonoBehaviour
     public void HideAlerts()
     {
         _displayManager.HideAlerts();
-        RemoveButtonsListeners();
+        RemoveListeners();
     }
+    private void SetupAlertSimple(Alert alert)
+    {
+        alert.SubscribeToEndEvent(_simpleAlertEnd);
+
+        Alert alertEnd = alert.endAlert;
+
+        if (alertEnd)
+        {
+            _simpleAlertEnd.AddListener(() => ShowNewAlert(alertEnd));
+        }
+        else
+        {
+            _simpleAlertEnd.AddListener(_displayManager.HideAlerts);
+        }
+        if (_displayManager.GetAlertSimpleDefaultDuration() > 0)
+        {
+            StartCoroutine(WaitToEndSimpleAlert());
+        }
+    }
+    public void EndSimpleAlert()
+    {
+        _simpleAlertEnd.Invoke();
+    }
+
     private void SetupAlertButton(AlertButton alert)
     {
         alert.SubscribeToEndEvent(simpleButton.onClick);
 
 
-        Alert alertButton = alert.buttonAlert;
+        Alert alertEnd = alert.endAlert;
 
-        if (alertButton)
+        if (alertEnd)
         {
-            simpleButton.onClick.AddListener(() => ShowNewAlert(alertButton));
+            simpleButton.onClick.AddListener(() => ShowNewAlert(alertEnd));
         }
         else
         {
@@ -79,13 +106,13 @@ public class HUDAlertManager : MonoBehaviour
 
     private void SetupAlertChoice(AlertChoice alert)
     {
-        
 
-        Alert alertAccept = alert.acceptAlert;
 
-        if (alertAccept)
+        Alert alertEnd = alert.endAlert;
+
+        if (alertEnd)
         {
-            acceptButton.onClick.AddListener(() => ShowNewAlert(alertAccept));
+            acceptButton.onClick.AddListener(() => ShowNewAlert(alertEnd));
         }
         else
         {
@@ -112,7 +139,7 @@ public class HUDAlertManager : MonoBehaviour
     {
         alert.SubscribeToEndEvent(confirmButton.onClick);
 
-        Alert alertConfirm = alert.confirmAlert;
+        Alert alertConfirm = alert.endAlert;
 
         if (alertConfirm)
         {
@@ -124,12 +151,27 @@ public class HUDAlertManager : MonoBehaviour
         }
     }
 
-    private void RemoveButtonsListeners()
+    private void RemoveListeners()
     {
         confirmButton.onClick.RemoveAllListeners();
         acceptButton.onClick.RemoveAllListeners();
         denyButton.onClick.RemoveAllListeners();
         simpleButton.onClick.RemoveAllListeners();
-    }
 
+        _simpleAlertEnd.RemoveAllListeners();
+    }
+    
+    IEnumerator WaitToEndSimpleAlert()
+    {
+        float waitTime = _displayManager.GetFadeInDuration() + _displayManager.GetAlertSimpleDefaultDuration();
+        Debug.Log("WaitToEndSimpleAlert started for " + waitTime + " seconds");
+
+        yield return new WaitForSeconds(waitTime);
+
+        Debug.Log("WaitToEndSimpleAlert waited");
+        if (_displayManager.getLastAlert() == AlertType.Simple)
+        {
+            EndSimpleAlert();
+        }
+    }
 }

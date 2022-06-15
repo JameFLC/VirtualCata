@@ -97,6 +97,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "TrackpadClicked",
+                    "type": "Button",
+                    "id": "8e1f98bd-79e2-4b62-b2a4-7b79b4f78687",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -218,6 +227,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "TrackpadToutched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a3508db4-acd6-408a-b1fa-a4e71405ce14",
+                    "path": "<ViveController>{LeftHand}/trackpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackpadClicked",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -717,6 +737,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "TrackpadClicked",
+                    "type": "Button",
+                    "id": "edd3598c-e9bb-42f7-ba2d-2e097c967242",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -838,6 +867,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "TrackpadToutched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd9a5bc3-d33c-4d73-ab12-bd5caf57e120",
+                    "path": "<ViveController>{RightHand}/trackpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackpadClicked",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
