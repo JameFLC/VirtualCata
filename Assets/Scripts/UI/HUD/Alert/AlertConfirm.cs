@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AlertConfirm : Alert
 {
-    public Alert confirmAlert;
+
     public override AlertType GetAlertType()
     {
         return AlertType.Confirm;

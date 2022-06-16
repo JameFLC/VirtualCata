@@ -11,6 +11,8 @@ public class ControllerHighlightManager : MonoBehaviour
     [SerializeField] GameObject system;
     [SerializeField] GameObject trackpad;
     [SerializeField] GameObject trigger;
+    [SerializeField] GameObject clockwiseArrow;
+    [SerializeField] GameObject counterClockwiseArrow;
 
     [SerializeField] float duration = 0.2f;
     [SerializeField] Ease easing = Ease.OutBounce;
@@ -23,6 +25,9 @@ public class ControllerHighlightManager : MonoBehaviour
     public void SetSystemHighlight(float value) => SetHighlight(system, value);
     public void SetTrackpadHighlight(float value) => SetHighlight(trackpad, value);
     public void SetTriggerHighlight(float value) => SetHighlight(trigger, value);
+
+    public void SetClockwiseHighlight(float value) => SetHighlight(clockwiseArrow, value);
+    public void SetCounterClockwiseHighlight(float value) => SetHighlight(counterClockwiseArrow, value);
 
     private void SetHighlight(GameObject obj, float value)
     {

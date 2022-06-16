@@ -120,31 +120,7 @@ public class HUDAlertDisplayManager : MonoBehaviour
 
         Debug.Log("Set " + alert + " alpha to " + group.alpha);
     }
-    public void DisplaySimpleAlert(string newText)
-    {
-        DisplayAlert(AlertType.Simple, newText);
-    }
-    public void DisplaySimpleAlertNoFadeOut(string newText)
-    {
-        if (_isFading)
-            return;
-        HideAlerts();
-        StartCoroutine(WaitToShowSimpleAlertNoFade(newText));
-    }
-    public void DisplayConfirmAlert(string newText)
-    {
-        DisplayAlert(AlertType.Confirm, newText);
-    }
-    public void DisplayChoiceAlert(string newText)
-    {
-        DisplayAlert(AlertType.Choice, newText);
-    }
-    public void DisplayButtonAlert(string newText)
-    {
 
-        DisplayAlert(AlertType.Button, newText);
-        ShowAlert(alertSimple);
-    }
 
     public float GetAlertSimpleDefaultDuration()
     {
@@ -193,9 +169,6 @@ public class HUDAlertDisplayManager : MonoBehaviour
             case AlertType.Simple:
                 UpdateText(alertSimple, newText);
                 ShowAlert(alertSimple);
-                if (simpleAlertDuration >= 0)
-                    StartCoroutine(WaitToHideSimpleAlert());
-               
                 break;
             case AlertType.Confirm:
                 UpdateText(alertConfirm, newText);
@@ -211,25 +184,21 @@ public class HUDAlertDisplayManager : MonoBehaviour
                 break;
         }
     }
-    IEnumerator WaitToHideSimpleAlert()
-    {
-        yield return new WaitForSeconds(fadeInDuration + simpleAlertDuration);
-        if (lastAlert == AlertType.Simple)
-        {
-            HideAlerts();
-        }
-
-    }
-    IEnumerator WaitToShowSimpleAlertNoFade(string newText)
-    {
-        yield return new WaitForSeconds(fadeOutDuration + timeBuffer);
-        UpdateText(alertSimple, newText);
-        ShowAlert(alertSimple);
-
-    }
     IEnumerator WaitToEnableAlertInteraction(RectTransform alert)
     {
         yield return new WaitForSeconds(fadeInDuration);
         ToogleAlertInteraction(alert, true);
+    }
+    public float GetFadeInDuration()
+    {
+        return fadeInDuration;
+    }
+    public float GetFadeOutDuration()
+    {
+        return fadeOutDuration;
+    }
+    public AlertType getLastAlert()
+    {
+        return lastAlert;
     }
 }

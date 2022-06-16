@@ -8,7 +8,11 @@ public class Alert : MonoBehaviour
     [SerializeField] string message;
     [SerializeField] UnityEvent OnAlertFinished;
 
+
+    public Alert endAlert;
     private UnityEvent _subscribedEvent;
+
+
     public string GetMessage()
     {
         return message;

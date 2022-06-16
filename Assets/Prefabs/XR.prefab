@@ -3752,6 +3752,7 @@ GameObject:
   - component: {fileID: 8505102390055480286}
   - component: {fileID: 8505102390055480281}
   - component: {fileID: 8505102390055480287}
+  - component: {fileID: 6307633968061979762}
   - component: {fileID: 417309729366201019}
   m_Layer: 6
   m_Name: XR Origin
@@ -3839,6 +3840,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325ec5a5c3b7b7043adb34ed552f353a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6307633968061979762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8505102390055480282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884dae4bbe18c4942afc00465a8e852a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveProvider: {fileID: 8505102389244486399}
 --- !u!208 &417309729366201019
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -4162,6 +4176,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1199918699820494740, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
+      propertyPath: turnAction.m_Reference
+      value: 
+      objectReference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
       propertyPath: triggerAction.m_Reference
       value: 
       objectReference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f, type: 3}
@@ -4174,9 +4192,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
+      propertyPath: turnClickedAction.m_Reference
+      value: 
+      objectReference: {fileID: -659098086905933002, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
       propertyPath: triggerClickAction.m_Reference
       value: 
       objectReference: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
+      propertyPath: turnActionPressed.m_Action.m_Id
+      value: 719c7597-86be-4804-a0b3-e5af0a715579
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
+      propertyPath: turnActionToutched.m_Action.m_Id
+      value: 31787585-51a7-4b2d-9113-a0f9f71f49a4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
+      propertyPath: turnClickedAction.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5685541147157021522, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4694,6 +4728,10 @@ PrefabInstance:
       propertyPath: triggerAction.m_Reference
       value: 
       objectReference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
+      propertyPath: turnAction.m_UseReference
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
       propertyPath: trackpadAction.m_Reference
       value: 
