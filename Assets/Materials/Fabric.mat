@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wood
+  m_Name: Fabric
   m_Shader: {fileID: -6465566751694194690, guid: 4e108abb56ad5134bb3b70c4fddb3c01, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: d85f27ede3e57eb4996fb518ed846cc7, type: 3}
+        m_Texture: {fileID: 2800000, guid: e5708113907efa643b5d1c76d8cab54e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 5882cf4ee31f6aa409c39c404d443ca9, type: 3}
+        m_Texture: {fileID: 2800000, guid: e2328dc50cd3ed34b883e0de6ea54306, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -73,7 +73,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness:
-        m_Texture: {fileID: 2800000, guid: 410307e82c2101447909b30ebfecc482, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5394b20b6b9df7f4b9d6d3595f771ad2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:

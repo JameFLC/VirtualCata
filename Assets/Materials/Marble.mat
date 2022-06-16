@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wood
+  m_Name: Marble
   m_Shader: {fileID: -6465566751694194690, guid: 4e108abb56ad5134bb3b70c4fddb3c01, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: d85f27ede3e57eb4996fb518ed846cc7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 97189198cb452184b91cd9dd25ca7ae0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 5882cf4ee31f6aa409c39c404d443ca9, type: 3}
+        m_Texture: {fileID: 2800000, guid: fac5fafecfc429f408f8fedd7bd8e48d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -73,7 +73,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness:
-        m_Texture: {fileID: 2800000, guid: 410307e82c2101447909b30ebfecc482, type: 3}
+        m_Texture: {fileID: 2800000, guid: 99edbafc9cdd0fb4788229a2d9080314, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -110,6 +110,7 @@ Material:
     - _GlossyReflections: 0
     - _Metalic_Boost: 0
     - _Metallic: 0
+    - _Normal_Smoothing: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
