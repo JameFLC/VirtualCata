@@ -13,7 +13,7 @@ using UnityEngine;
             _name = name;
         }
 
-        public abstract void AddData(IODataTypes data);
+        public abstract void AddData(IODataUnit data);
 
         public abstract string SerializeData();
     }

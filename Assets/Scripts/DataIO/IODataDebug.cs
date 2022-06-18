@@ -25,7 +25,7 @@ public class IODataDebug : MonoBehaviour
         for (int i = 0; i < datalenght; i++)
         {
             Vector4 baba = new Vector4(Random.Range(-100f, 100f), Random.Range(-100f, 100f), Random.Range(-100f, 100f), Random.Range(-100f, 100f));
-            IODataTypes ioDataVector = new IODataTypes(baba);
+            IODataUnit ioDataVector = new IODataUnit(baba);
             iOVectors4.AddData(ioDataVector);
             iOVectors3.AddData(ioDataVector);
             iOVectors2.AddData(ioDataVector);
@@ -37,7 +37,7 @@ public class IODataDebug : MonoBehaviour
             {
                 newString += _glyphs[Random.Range(0, _glyphs.Length)];
             }
-            IODataTypes IODataString = new IODataTypes(newString);
+            IODataUnit IODataString = new IODataUnit(newString);
             iOStrings.AddData(IODataString);
         }
         Debug.Log(iOFloats.SerializeData());

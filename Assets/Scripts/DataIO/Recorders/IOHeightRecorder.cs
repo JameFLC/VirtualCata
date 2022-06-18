@@ -22,7 +22,7 @@ public class IOHeightRecorder : IODataRecorder
         if (Time.time >= _lastTime + updateDelay)
         {
             _lastTime = Time.time;
-            IODataTypes currentData = new IODataTypes(targetTransform.position.y- baseHeight);
+            IODataUnit currentData = new IODataUnit(targetTransform.position.y- baseHeight);
             data.AddData(currentData);
         }
 

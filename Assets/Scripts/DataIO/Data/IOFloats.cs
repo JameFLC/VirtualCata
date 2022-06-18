@@ -11,7 +11,7 @@ public class IOFloats : IOData
         _name = name;
     }
 
-    public override void AddData(IODataTypes data)
+    public override void AddData(IODataUnit data)
     {
         dataList.Add(data.GetFloat());
     }

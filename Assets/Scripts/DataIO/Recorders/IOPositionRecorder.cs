@@ -22,7 +22,7 @@ public class IOPositionRecorder : IODataRecorder
         if (Time.time >= _lastTime + updateDelay) // Use invoke repeating if performance is an issue
             {
                 _lastTime = Time.time;
-                IODataTypes currentData = new IODataTypes(targetTransform.position);
+                IODataUnit currentData = new IODataUnit(targetTransform.position);
 
                 data.AddData(currentData);
             }

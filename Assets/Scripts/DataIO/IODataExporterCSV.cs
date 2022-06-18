@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -54,7 +55,6 @@ public class IODataExporterCSV : MonoBehaviour
         string exportPath = setupPath() + "/" + fileName + GetTime() + "." + extention;
         Debug.Log(exportPath);
         File.WriteAllText(exportPath, CSVText);
-
     }
 
     private static string GetTime()
