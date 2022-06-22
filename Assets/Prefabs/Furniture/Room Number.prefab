@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 123
+  m_text: 300
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88351b848d49c6c4a85679ebee30e5ad, type: 2}
   m_sharedMaterial: {fileID: -7003227357471523931, guid: 88351b848d49c6c4a85679ebee30e5ad, type: 2}
@@ -248,7 +248,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 2218dd72a795655429b15fad4553fc72, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 281714386694eb64e95480685a1a61b5, type: 2}
+      objectReference: {fileID: 2100000, guid: d04af38e18771484993309d253ef0b56, type: 2}
     - target: {fileID: 919132149155446097, guid: 2218dd72a795655429b15fad4553fc72, type: 3}
       propertyPath: m_Name
       value: Room Number

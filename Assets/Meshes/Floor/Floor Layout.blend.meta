@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: 62da6f129f03b41498c3b27bb06fe605
+guid: f017d051c132eef43b39103a90b56eaf
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 2d72ebca98e5b5c46b6abfe72aca06ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor Wall Transition
+    second: {fileID: 6515002902871514777, guid: 712b7180d3444164f87ec3442dafa91a, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 38804276f24eed8418418f4f2f4d80be, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

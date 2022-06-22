@@ -3,7 +3,22 @@ guid: 7f275ae73a51dab4fb425d5536573ef9
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet
+    second: {fileID: 2100000, guid: 281714386694eb64e95480685a1a61b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet Handles
+    second: {fileID: 2100000, guid: d04af38e18771484993309d253ef0b56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet Metal
+    second: {fileID: 2100000, guid: 281714386694eb64e95480685a1a61b5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +62,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

@@ -3,7 +3,37 @@ guid: 712b7180d3444164f87ec3442dafa91a
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Floor
+    second: {fileID: 2100000, guid: fb11d4c505464944282d2dda8b6cfdfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Wall
+    second: {fileID: 2100000, guid: fb11d4c505464944282d2dda8b6cfdfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet Floor
+    second: {fileID: 2100000, guid: 5091092ab33c52e4b9af4fafba5a8dc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling
+    second: {fileID: 2100000, guid: 38804276f24eed8418418f4f2f4d80be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor Wall
+    second: {fileID: 2100000, guid: 38804276f24eed8418418f4f2f4d80be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table
+    second: {fileID: 2100000, guid: 281714386694eb64e95480685a1a61b5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +77,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
