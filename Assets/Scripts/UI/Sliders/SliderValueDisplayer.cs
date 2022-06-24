@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,9 +6,9 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Slider))]
 public class SliderValueDisplayer : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI sliderText;
+    [SerializeField] protected TextMeshProUGUI sliderText;
 
-    private Slider _slider;
+    protected Slider _slider;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,9 +17,13 @@ public class SliderValueDisplayer : MonoBehaviour
         {
             _slider.onValueChanged.AddListener((value) =>
             {
-                sliderText.text = value.ToString("0.##");
+                UpdateText(value);
             });
         }
         
+    }
+    protected virtual void UpdateText(float value)
+    {
+        sliderText.text = value.ToString("0.##");
     }
 }

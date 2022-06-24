@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8322501635601218626}
   - component: {fileID: 8322501635601218628}
-  - component: {fileID: 2610293609387893962}
   - component: {fileID: 8322501635601218627}
   - component: {fileID: 1941067812260497598}
   m_Layer: 5
@@ -48,23 +47,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8322501635601218625}
   m_CullTransparentMesh: 1
---- !u!114 &2610293609387893962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8322501635601218625}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15734699af5ddc64cbbc8e6976804a6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transformBegin: 0
-  transformEnd: -0.02
-  loopDuration: 2
-  loopEasing: 4
-  loopType: 1
 --- !u!114 &8322501635601218627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,7 +130,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 25, y: 0, z: 25, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

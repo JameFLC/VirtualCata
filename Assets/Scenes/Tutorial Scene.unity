@@ -261,19 +261,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.014
+      value: 0.014000058
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.021
+      value: 6.975
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70710695
+      value: 0.7071067
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -281,7 +281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.70710665
+      value: 0.7071069
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalRotation.z
@@ -293,7 +293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4411973108332338006, guid: ae831393ed3209e4db6cd10fb47ece5f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -6639,7 +6639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c2be56f18f95e448924480d4ecfdb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "Bien, maintenant les d\xE9placement !"
+  message: "Bien, maintenant les d\xE9placements !"
   OnAlertFinished:
     m_PersistentCalls:
       m_Calls:
@@ -6802,7 +6802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c2be56f18f95e448924480d4ecfdb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Bienvenu dans le tutoriel !
+  message: Bienvenue dans le tutoriel !
   OnAlertFinished:
     m_PersistentCalls:
       m_Calls: []
@@ -6934,7 +6934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d90647dc3dc7c9a469f922f45ffa9f99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Cliquez sur le bouton de confirmation
+  message: Cliquez sur le bouton de confirmation.
   OnAlertFinished:
     m_PersistentCalls:
       m_Calls: []
@@ -6968,7 +6968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94bf36161f84ee54f8e2a61b3d94bcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Cliquer sur le bouton.
+  message: Cliquez sur le bouton.
   OnAlertFinished:
     m_PersistentCalls:
       m_Calls:
@@ -6997,7 +6997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c2be56f18f95e448924480d4ecfdb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: puis en pressant le bouton de l'indexe de la main droite
+  message: puis en pressant le bouton de l'index de la main droite
   OnAlertFinished:
     m_PersistentCalls:
       m_Calls: []
@@ -12549,7 +12549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c2be56f18f95e448924480d4ecfdb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "Vous \xEAtes prets, allez au centre du cercle !"
+  message: "Vous \xEAtes pret, allez au centre du cercle !"
   OnAlertFinished:
     m_PersistentCalls:
       m_Calls: []
@@ -13341,6 +13341,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3864644282361301149, guid: f5ecddaff5087c84cbb6faf604646b0a, type: 3}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8505102388841237732, guid: f5ecddaff5087c84cbb6faf604646b0a, type: 3}
       propertyPath: m_Name
       value: XR
