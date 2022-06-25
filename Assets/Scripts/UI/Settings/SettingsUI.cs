@@ -11,29 +11,29 @@ public class SettingsUI : MonoBehaviour
     [SerializeField] protected TextMeshProUGUI hotelTypeText;
     [SerializeField] private Button hotelTypeFancyButton;
     [SerializeField] private Button hotelTypeCheapButton;
-
+    [Space]
     [SerializeField] protected TextMeshProUGUI hotelFullnessText;
     [SerializeField] private Slider hotelFullnessSlider;
-
+    [Space]
     [SerializeField] protected TextMeshProUGUI lightsTypeText;
     [SerializeField] private Button lightsTypeOnButton;
     [SerializeField] private Button lightsTypeOffButton;
 
-
+    [Space]
     [SerializeField] protected TextMeshProUGUI evacuationTypeText;
     [SerializeField] private Button evacuationOrderedButton;
     [SerializeField] private Button evacuationDisorderedButton;
 
-
+    [Space]
     [SerializeField] protected TextMeshProUGUI evacuationDirectionText;
     [SerializeField] private Button evacuationDirectionLeftButton;
     [SerializeField] private Button evacuationDirectionRightButton;
 
-
+    [Space]
     [SerializeField] protected TextMeshProUGUI smokeSpeedText;
     [SerializeField] private Slider smokeSpeedSlider;
     [SerializeField] private bool tenTimes = true;
-
+    [Space]
     [SerializeField] private Button dismissButton;
     [SerializeField] private Button validateButton;
 
@@ -79,35 +79,51 @@ public class SettingsUI : MonoBehaviour
 
     }
 
-    public void ShowParametters(uint profileID)
+    public void ShowParametters(int profileID)
     {
-        _currentProfileID = profileID;
+        if (profileID < 0)
+        {
+            Debug.LogError("Negative Profile ID used");
+            return;
+        }
+        _currentProfileID = (uint)profileID;
         _UIFade.ShowUI();
 
         ProfileData newProfile;
-        newProfile = ProfileFilesManager.LoadProfileData(profileID);
+        newProfile = ProfileFilesManager.LoadProfileData((uint)profileID);
         if (newProfile != null)
             LoadProfile(newProfile);
         else
             LoadProfile(new ProfileData());
     }
+
     private void SaveParametters(uint profileID)
     {
         ProfileFilesManager.SaveProfile(_currentProfile, profileID);
     }
     private void LoadProfile(ProfileData profileData)
     {
-        _currentProfile = profileData;
-        UpdateHotelType(_currentProfile.hotelType);
-        UpdateHotelFullness(_currentProfile.hotelFullness);
-        UpdateHotelLights(_currentProfile.hotelLights);
-        UpdateEvacuationType(_currentProfile.evacuationType);
-        UpdateEvacuationDirection(_currentProfile.evacuationDirection);
-        UpdateSmokeDuration(_currentProfile.smokeDuration);
+        if (profileData != null)
+        {
+            _currentProfile = profileData;
+            UpdateHotelType(_currentProfile.hotelType);
+            UpdateHotelFullness(_currentProfile.hotelFullness);
+            UpdateHotelLights(_currentProfile.hotelLights);
+            UpdateEvacuationType(_currentProfile.evacuationType);
+            UpdateEvacuationDirection(_currentProfile.evacuationDirection);
+            UpdateSmokeDuration(_currentProfile.smokeDuration);
+        }
+        else
+        {
+            Debug.Log("No profileData Available to load from menu");
+        }
     }
 
 
-
+    public uint GetCurrentProfileID()
+    {
+        return _currentProfileID;
+    }
 
 
 
@@ -146,7 +162,6 @@ public class SettingsUI : MonoBehaviour
     }
     public void UpdateEvacuationType(uint type)
     {
-
         _currentProfile.evacuationType = type;
         if (type == 0)
         {
@@ -193,7 +208,7 @@ public class SettingsUI : MonoBehaviour
     }
 
 
-    void FullnessSliderSubrscribe()
+    private void FullnessSliderSubrscribe()
     {
         hotelFullnessSlider.onValueChanged.AddListener((value) =>
         {
@@ -201,7 +216,7 @@ public class SettingsUI : MonoBehaviour
             UpdateHotelFullness(percent);
         });
     }
-    void SmokeSliderSubrscribe()
+    private void SmokeSliderSubrscribe()
     {
         smokeSpeedSlider.onValueChanged.AddListener((value) =>
         {

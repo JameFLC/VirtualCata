@@ -3,7 +3,32 @@ guid: 8541d971e52a76347960057f2e9922dd
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink
+    second: {fileID: 2100000, guid: a578b58f6aa5e024ea08b67501e19c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink Cold
+    second: {fileID: 2100000, guid: d50caec5c21a79b42a27e97e02903850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink Hot
+    second: {fileID: 2100000, guid: 468811fd5f93c714787a1c04d5de193a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink Metal
+    second: {fileID: 2100000, guid: d04af38e18771484993309d253ef0b56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sinl Drawer
+    second: {fileID: 2100000, guid: a578b58f6aa5e024ea08b67501e19c31, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

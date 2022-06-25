@@ -18,7 +18,7 @@ public class ProfileData
     {
         hotelType = 0;
         hotelLights = 0;
-        hotelFullness = 0; 
+        hotelFullness = 100; 
         evacuationDirection = 0; 
         evacuationType = 0; 
         smokeDuration = 30; 

@@ -33,7 +33,7 @@ public static class ProfileFilesManager
 
             return prifileData;
         }
-        Debug.Log("No Camera save file available");
+        Debug.Log("No Profile file available");
         return null;
     }
     public static bool isProfileAvailable(int saveID)

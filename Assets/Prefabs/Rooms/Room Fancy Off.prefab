@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &718832906646042195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1254800430498427276}
+    m_Modifications:
+    - target: {fileID: 338561920348039511, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_Name
+      value: Room Fancy Details
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892440098440660179, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7baa13d54e96bed42889978c8037ec9f, type: 3}
+--- !u!1001 &6700829486000255971
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6289283391235889948, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Intensity
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758052739627092507, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Intensity
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974241849835547003, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Intensity
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011051674087454755, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Room Fancy Off
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+--- !u!4 &1254800430498427276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+  m_PrefabInstance: {fileID: 6700829486000255971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1817603769131857219 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5028071163201439392, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+  m_PrefabInstance: {fileID: 6700829486000255971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3260705817207267342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817603769131857219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01e8dd9a423e9f40aa1af7741d8bd72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensities:
+  - 1
+  - 0.2
+  - 0.5
+  - 0
+  - 0.6
+  - 0
+  minimumFlickerDuration: 0.3
+  flickerDurationRandomness: 1
+  easing: 31
+  isFlickerEnabled: 1
+--- !u!1 &2367586797357270820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8945691817611932871, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+  m_PrefabInstance: {fileID: 6700829486000255971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5133171464217066563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2367586797357270820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01e8dd9a423e9f40aa1af7741d8bd72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensities:
+  - 1
+  - 0.2
+  - 0.5
+  - 0
+  - 0.6
+  - 0
+  minimumFlickerDuration: 0.3
+  flickerDurationRandomness: 1
+  easing: 31
+  isFlickerEnabled: 1
+--- !u!1 &3051808188192495139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8548979480349484480, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+  m_PrefabInstance: {fileID: 6700829486000255971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5831875756039493146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3051808188192495139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01e8dd9a423e9f40aa1af7741d8bd72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensities:
+  - 1
+  - 0.2
+  - 0.5
+  - 0
+  - 0.6
+  - 0
+  minimumFlickerDuration: 0.3
+  flickerDurationRandomness: 1
+  easing: 31
+  isFlickerEnabled: 1

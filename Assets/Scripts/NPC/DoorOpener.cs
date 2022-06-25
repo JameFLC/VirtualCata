@@ -75,11 +75,14 @@ public class DoorOpener : MonoBehaviour
 
     private void OpenDoor(GameObject door)
     {
-        DoorOpeningAnimation doorOpeningAnimation = door.GetComponentInChildren<DoorOpeningAnimation>();
-        if (doorOpeningAnimation != null)
+        DoorOpeningAnimation[] doorOpeningAnimations = door.GetComponentsInChildren<DoorOpeningAnimation>();
+
+        if (doorOpeningAnimations != null)
         {
-           
-            doorOpeningAnimation.OpenDoor();
+            foreach (var doorOpeningAnimation in doorOpeningAnimations)
+            {
+                doorOpeningAnimation.OpenDoor();
+            }
         }
 
     }

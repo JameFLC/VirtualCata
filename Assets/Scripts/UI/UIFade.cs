@@ -13,7 +13,7 @@ public class UIFade : MonoBehaviour
 
     private CanvasGroup _UIGroup = null;
     private bool _isFading = false;
-
+    private Tween _currentTween;
     private void Start()
     {
         _UIGroup = GetComponent<CanvasGroup>();
@@ -21,12 +21,30 @@ public class UIFade : MonoBehaviour
     // Start is called before the first frame update
     public void ShowUI()
     {
+        if (_currentTween !=null)
+        {
+            _currentTween.Kill(false);
+        }
         ToogleHudInteraction(true);
         _UIGroup.DOFade(1, fadeInDuration)
             .SetEase(fadeEasing).OnComplete(() => { _isFading = false; });
     }
+    public void ShowUINoFade()
+    {
+        if (_currentTween != null)
+        {
+            _currentTween.Kill(false);
+        }
+        ToogleHudInteraction(true);
+        _UIGroup.alpha = 1;
+    }
+
     public void HideUI()
     {
+        if (_currentTween != null)
+        {
+            _currentTween.Kill(false);
+        }
         ToogleHudInteraction(false);
 
         _UIGroup.DOFade(0, fadeOutDuration)
@@ -35,6 +53,15 @@ public class UIFade : MonoBehaviour
             {
                 _isFading = false;
             }));
+    }
+    public void HideUINoFade()
+    {
+        if (_currentTween != null)
+        {
+            _currentTween.Kill(false);
+        }
+        ToogleHudInteraction(false);
+        _UIGroup.alpha = 0;
     }
     private void ToogleHudInteraction(bool interact)
     {
