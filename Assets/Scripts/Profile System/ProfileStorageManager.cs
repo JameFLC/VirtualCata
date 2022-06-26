@@ -15,9 +15,11 @@ public class ProfileStorageManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(this.gameObject);
             //Rest of Awake
+            Debug.Log("New simulated profile selected is " + instance._simulatedProfileID);
         }
         else
         {
+            Debug.Log("Current Simulated profile selected is " + instance._simulatedProfileID);
             Destroy(this);
         }
     }

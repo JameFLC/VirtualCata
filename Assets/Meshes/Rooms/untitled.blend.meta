@@ -1,29 +1,9 @@
 fileFormatVersion: 2
-guid: 119503123ca181a42a2a778ee2399c3c
+guid: aa2b9611d9f96d14381fd9707242067d
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Invisible
-    second: {fileID: 2100000, guid: d36918552ac0a2048bda07474bd0ae98, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: LightBlockable
-    second: {fileID: 2100000, guid: 59acb64f99a08894886be98251fc0165, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Lights
-    second: {fileID: 2100000, guid: 50ddc62b0776a60438b2644a14cf1551, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Walls
-    second: {fileID: 2100000, guid: 5091092ab33c52e4b9af4fafba5a8dc0, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -67,12 +47,12 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
     bakeAxisConversion: 0
-    preserveHierarchy: 1
+    preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001

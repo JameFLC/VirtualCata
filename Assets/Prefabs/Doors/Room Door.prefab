@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 851708835261392451}
   - component: {fileID: 7584004366247370485}
   - component: {fileID: 4349139897850375060}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 0}
+  - {fileID: 2181942140613919451}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -510,8 +510,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.018825656, y: 0.94273746, z: 2.0000002}
-  m_Center: {x: 0.009412826, y: -0.47136873, z: 1.0000001}
+  m_Size: {x: 0.018825656, y: 0.94273746, z: 1.9902503}
+  m_Center: {x: 0.009412825, y: -0.47136873, z: 1.0048751}
 --- !u!1 &1745377565962112756
 GameObject:
   m_ObjectHideFlags: 0
