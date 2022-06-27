@@ -148,7 +148,7 @@ Material:
     - Vector1_A5D3354E: 7.84
     - Vector1_E7E51992: 4.62
     - _AlphaClip: 0
-    - _AlphaMultiplier: 1.4
+    - _AlphaMultiplier: 1.85
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -160,7 +160,7 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FramePerSeconds: 16
-    - _FresnelMultiplier: 3
+    - _FresnelMultiplier: 0.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -194,6 +194,6 @@ Material:
     - _FadeInMinMax: {r: 1, g: 2, b: 0, a: 0}
     - _FadeOutMinMax: {r: 4, g: 5, b: 0, a: 0}
     - _FlipbookFrames: {r: 6, g: 6, b: 0, a: 0}
-    - _Smoke_Color: {r: 0.36792445, g: 0.36792445, b: 0.36792445, a: 0.8509804}
+    - _Smoke_Color: {r: 0.3679244, g: 0.3679244, b: 0.3679244, a: 0.8666667}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

@@ -20,12 +20,11 @@ public class ProfileStorageManager : MonoBehaviour
         else
         {
             Debug.Log("Current Simulated profile selected is " + instance._simulatedProfileID);
-            Destroy(this);
         }
     }
     public void SetSimulatedProfileID(uint profileID)
     {
-        _simulatedProfileID = profileID;
+        instance._simulatedProfileID = profileID;
         Debug.Log("Selected Simulated profile updated to " + profileID);
     }
     public void SetSimulatedProfileID(int profileID)
@@ -35,11 +34,11 @@ public class ProfileStorageManager : MonoBehaviour
             Debug.LogError("Selected Simulated profile should nt be negative");
             return;
         }
-        _simulatedProfileID = (uint)profileID;
+        instance._simulatedProfileID = (uint)profileID;
         Debug.Log("Selected Simulated profile updated to " + profileID);
     }
     public uint GetSimulatedProfileID()
     {
-        return _simulatedProfileID;
+        return instance._simulatedProfileID;
     }
 }

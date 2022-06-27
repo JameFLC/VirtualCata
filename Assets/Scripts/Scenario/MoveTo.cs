@@ -5,7 +5,7 @@ using DG.Tweening;
 public class MoveTo : MonoBehaviour
 {
     [SerializeField] private Transform destination;
-    [SerializeField] private float duration = 3;
+                     public float duration = 3;
     [SerializeField] private Ease easing = Ease.InOutCirc;
     [SerializeField] private float overshoot = 0;
 
@@ -24,7 +24,6 @@ public class MoveTo : MonoBehaviour
     public void BeginMoveSnap()
     {
         KillCurrentTween();
-
         transform.position = destination.position;
     }
     public void ResetPositionEase()

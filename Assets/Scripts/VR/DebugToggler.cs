@@ -8,6 +8,7 @@ using Tayx.Graphy;
 public class DebugToggler : MonoBehaviour
 {
     [SerializeField] private InputActionProperty toggleReference;
+    [SerializeField] private ProfileTextDisplayer profileTextDisplayer;
     private CanvasGroup _canvasGroup;
     private void Awake()
     {
@@ -27,5 +28,10 @@ public class DebugToggler : MonoBehaviour
 
         _canvasGroup.interactable = !_canvasGroup.interactable;
         _canvasGroup.alpha = Mathf.Abs(_canvasGroup.alpha-1);
+        if (profileTextDisplayer != null  && Mathf.Abs(_canvasGroup.alpha - 1) == 1)
+        {
+            profileTextDisplayer.Init();
+        }
+
     }
 }

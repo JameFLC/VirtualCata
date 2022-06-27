@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class IOHeightRecorder : IODataRecorder
 {
-    [SerializeField] Transform targetTransform;
-    [SerializeField] float baseHeight = 0f;
+    [SerializeField] CharacterController playerController;
     private float _lastTime = 0;
     // Start is called before the first frame update
     void Start()
@@ -22,7 +21,7 @@ public class IOHeightRecorder : IODataRecorder
         if (Time.time >= _lastTime + updateDelay)
         {
             _lastTime = Time.time;
-            IODataUnit currentData = new IODataUnit(targetTransform.position.y- baseHeight);
+            IODataUnit currentData = new IODataUnit(playerController.height);
             data.AddData(currentData);
         }
 

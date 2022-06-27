@@ -59,9 +59,57 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 6.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.5481973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.1029712
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.548193
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.997971
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -4.9373455
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -2.98544
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.5536186
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.97518414
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -116,9 +164,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.1029696
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 5.54821
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.9979696
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 5.5482054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854405
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 7.9373574
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.9751818
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.553632
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -173,9 +269,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.1029696
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 12.54821
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.9979696
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 12.548205
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854405
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 14.937357
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.9751818
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 11.553632
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -230,9 +374,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.1029638
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 3.4517891
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.9979638
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 3.4517891
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.9854212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 1.0626316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.9751815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.4463687
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -287,9 +479,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.1029638
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 13.951789
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.9979638
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 13.951789
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.9854212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 11.562632
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.9751815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 14.946368
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -428,6 +668,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -5.1029577
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.048211455
+      objectReference: {fileID: 0}
     - target: {fileID: 2167165345352858435, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3934
@@ -548,13 +800,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.115
       objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -5.997958
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.048216462
+      objectReference: {fileID: 0}
     - target: {fileID: 7876488858553200358, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_LocalScale.z
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -6.9854016
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.4946425
+      objectReference: {fileID: 0}
     - target: {fileID: 8143105517813689393, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_LocalScale.z
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -4.975176
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.003631711
       objectReference: {fileID: 0}
     - target: {fileID: 8886972549888275111, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_LocalScale.x
@@ -657,9 +945,57 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 6.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 4.451803
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.1029378
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 4.451807
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.9979377
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.0626545
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -2.9854066
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 5.4463816
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.97515076
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -670,6 +1006,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1505256716703839359, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730356493769583758, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Intensity
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183197812594572832, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074578469830485355, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461942134246776694, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643565334120418792, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Center.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771067387365462047, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8305534188358312752, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Name
       value: Floor Simulation Fancy On
@@ -776,9 +1140,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.1029696
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 2.0482101
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.9979696
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 2.0482054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854405
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.4373574
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.9751818
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 1.0536317
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -833,9 +1245,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.1029638
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 6.951789
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.9979638
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 6.951789
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.9854212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.5626316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.9751815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 7.9463687
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -903,6 +1363,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4094282841654728736}
     m_Modifications:
+    - target: {fileID: 1100043931933315970, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.246
+      objectReference: {fileID: 0}
     - target: {fileID: 1254800430498427276, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -955,9 +1419,61 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 6.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.95180273
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.1029545
+      objectReference: {fileID: 0}
+    - target: {fileID: 2918933170341006621, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.874
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.951807
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.9979544
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.4373457
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -2.9854233
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.9463814
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.97516745
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -1012,9 +1528,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.1029638
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 10.451789
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.9979638
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 10.451789
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.9854212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 8.062632
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.9751815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 11.446368
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
@@ -1069,9 +1633,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.1029696
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.55250007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987276721893887069, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 9.04821
+      objectReference: {fileID: 0}
     - target: {fileID: 3734286629935107008, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
       propertyPath: m_Name
       value: Room Fancy On (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.9979696
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5525001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322777314733649052, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 9.048205
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854405
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 11.437357
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.9751818
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 8.053632
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2e35bb14c5a6144fa1d4fb84fce4823, type: 3}
