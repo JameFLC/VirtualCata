@@ -16,7 +16,7 @@ public class FloorLoader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UnloadAll(); // Force unloading to prevent scene manipulations rfom breaking the simulation
+        //UnloadAll(); // Force unloading to prevent scene manipulations rfom breaking the simulation
     }
 
     public void UnloadAll()
@@ -33,7 +33,7 @@ public class FloorLoader : MonoBehaviour
     }
     public void FloorLoading(uint hotelType, uint lightType, bool load)
     {
-
+        
         if (hotelType == 0)
         {
             if (lightType == 0)

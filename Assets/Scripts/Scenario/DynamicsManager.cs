@@ -45,7 +45,8 @@ public class DynamicsManager : MonoBehaviour
     }
     IEnumerator BeggininngSequence()
     {
-        floorLoader.FloorLoading(_simulatedProfile.hotelType, 0, true);
+        
+        //floorLoader.FloorLoading(_simulatedProfile.hotelType, 0, true);
         yield return new WaitForSeconds(STEP_DELAY);
         dynamicsMover.MoveToBegining(_simulatedProfile.hotelType);
         if (enableNPCAtTheBeginning)
@@ -57,7 +58,7 @@ public class DynamicsManager : MonoBehaviour
     {
         if (_simulatedProfile.hotelLights != 0) // If the lighs are off
         {
-            floorLoader.FloorLoading(_simulatedProfile.hotelType, _simulatedProfile.hotelLights, true); // Load new floor
+            //floorLoader.FloorLoading(_simulatedProfile.hotelType, _simulatedProfile.hotelLights, true); // Load new floor
 
         }
 
@@ -81,7 +82,7 @@ public class DynamicsManager : MonoBehaviour
 
         if (_simulatedProfile.hotelLights != 0)
         {
-            floorLoader.FloorLoading(_simulatedProfile.hotelType, 0, false); // Unload new floor
+            //floorLoader.FloorLoading(_simulatedProfile.hotelType, 0, false); // Unload new floor
             Debug.Log("Old Floor Unload");
         }
     }
@@ -90,7 +91,7 @@ public class DynamicsManager : MonoBehaviour
     {
         IODataRecorderManager.DisableAllRecorders();
         dynamicsMover.MoveToEnd();
-        floorLoader.UnloadAll();
+        //floorLoader.UnloadAll();
         CSVExporter.ExportCSVFile();
         const float WAIT_FOR_MAIN_MENU = 20;
         yield return new WaitForSeconds(WAIT_FOR_MAIN_MENU);

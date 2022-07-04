@@ -57,7 +57,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5464806883319733916, guid: 3ff60f4f69988de46accc20cc7717d81, type: 3}
       propertyPath: m_Intensity
-      value: 0.4
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464806883319733916, guid: 3ff60f4f69988de46accc20cc7717d81, type: 3}
+      propertyPath: m_SpotAngle
+      value: 66.777336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464806883319733916, guid: 3ff60f4f69988de46accc20cc7717d81, type: 3}
+      propertyPath: m_Lightmapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464806883319733916, guid: 3ff60f4f69988de46accc20cc7717d81, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 38.314415
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464806883319733916, guid: 3ff60f4f69988de46accc20cc7717d81, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ff60f4f69988de46accc20cc7717d81, type: 3}

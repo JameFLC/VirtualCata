@@ -51,6 +51,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1852362397915746220, guid: 70801e9f1f7526249b84e2d3625ed3d7, type: 3}
+      propertyPath: m_Intensity
+      value: 3.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852362397915746220, guid: 70801e9f1f7526249b84e2d3625ed3d7, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5556205799623501198, guid: 70801e9f1f7526249b84e2d3625ed3d7, type: 3}
       propertyPath: m_Name
       value: Fancy Bedside Lamp
@@ -111,6 +119,14 @@ PrefabInstance:
     - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974241849835547003, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Range
+      value: 4.1532826
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974241849835547003, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_SpotAngle
+      value: 169.99217
       objectReference: {fileID: 0}
     - target: {fileID: 8011051674087454755, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
       propertyPath: m_Name
