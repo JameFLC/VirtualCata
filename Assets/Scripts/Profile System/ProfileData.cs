@@ -33,4 +33,5 @@ public class ProfileData
         this.evacuationType = evacuationType;
         this.smokeDuration = smokeDuration;
     }
+    
 }

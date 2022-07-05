@@ -25,6 +25,9 @@ public class DynamicsManager : MonoBehaviour
             Destroy(this);
         }
         _simulatedProfile = ProfileFilesManager.LoadProfileData(ProfileStorageManager.instance.GetSimulatedProfileID());
+        
+        Debug.Log("Start "+ProfileDataSerializer.Serialize(_simulatedProfile));
+        
         ToggleFire(false);
     }
     public void LaunchBeginning()
@@ -67,6 +70,7 @@ public class DynamicsManager : MonoBehaviour
         ToggleFire(true);
         
         dynamicsMover.MoveToSimulation(_simulatedProfile.hotelType, _simulatedProfile.hotelLights);
+        Debug.Log("Simulation Sequence "+ProfileDataSerializer.Serialize(_simulatedProfile));
         IODataRecorderManager.EnableAllRecorders();
         
         if (enableNPCAtTheBeginning == false)

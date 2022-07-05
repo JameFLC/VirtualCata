@@ -28,13 +28,13 @@ public static class ProfileFilesManager
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
 
-            ProfileData prifileData = formatter.Deserialize(stream) as ProfileData;
+            ProfileData profileData = formatter.Deserialize(stream) as ProfileData;
             stream.Close();
 
-            return prifileData;
+            return profileData;
         }
-        Debug.Log("No Profile file available");
-        return null;
+        Debug.Log("No Profile file available Loading Default Profile");
+        return new ProfileData();
     }
     public static bool isProfileAvailable(int saveID)
     {
