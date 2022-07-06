@@ -40,12 +40,7 @@ public class IODataDebug : MonoBehaviour
             IODataUnit IODataString = new IODataUnit(newString);
             iOStrings.AddData(IODataString);
         }
-        Debug.Log(iOFloats.SerializeData());
-        Debug.Log(iOVectors2.SerializeData());
-        Debug.Log(iOVectors3.SerializeData());
-        Debug.Log(iOVectors4.SerializeData());
-
-        Debug.Log(iOStrings.SerializeData());
+        
     }
 
 

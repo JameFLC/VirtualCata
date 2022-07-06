@@ -16,9 +16,9 @@ public class IOFloats : IOData
         dataList.Add(data.GetFloat());
     }
 
-    public override string SerializeData()
+    public override string SerializeData(float updateDelay)
     {
-        return IODataSerializerCSV.SerializeFloats(_name, dataList);
+        return IODataSerializerCSV.SerializeFloats(_name, dataList,updateDelay);
     }
 
     

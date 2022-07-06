@@ -15,8 +15,8 @@ public class IOVectors3 : IOData
         dataList.Add(data.GetVector3());
     }
 
-    public override string SerializeData()
+    public override string SerializeData(float updateDelay)
     {
-        return IODataSerializerCSV.SerializeVectors3(_name, dataList);
+        return IODataSerializerCSV.SerializeVectors3(_name, dataList, updateDelay);
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class IODataRecorder : MonoBehaviour
 {
+
     [SerializeField] protected string dataName = "";
     [SerializeField] protected float updateDelay = 0.1f;
     protected IOData data;

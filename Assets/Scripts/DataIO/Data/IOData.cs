@@ -15,5 +15,5 @@ using UnityEngine;
 
         public abstract void AddData(IODataUnit data);
 
-        public abstract string SerializeData();
+        public abstract string SerializeData(float updateDelay);
     }

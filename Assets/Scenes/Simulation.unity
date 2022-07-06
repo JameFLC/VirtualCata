@@ -598,6 +598,10 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.z
       value: 4.7537058e+30
       objectReference: {fileID: 0}
+    - target: {fileID: 2563297623685332294, guid: cf35f99b58bed6c4491d79f9729a9760, type: 3}
+      propertyPath: m_BoxSize.x
+      value: 2.32
+      objectReference: {fileID: 0}
     - target: {fileID: 2572332298987495968, guid: cf35f99b58bed6c4491d79f9729a9760, type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 0
@@ -13799,6 +13803,7 @@ GameObject:
   - component: {fileID: 1522883099}
   - component: {fileID: 1522883098}
   - component: {fileID: 1522883097}
+  - component: {fileID: 1522883100}
   m_Layer: 0
   m_Name: Recorders
   m_TagString: Untagged
@@ -13866,6 +13871,25 @@ MonoBehaviour:
   dataName: Player Position
   updateDelay: 0.1
   targetTransform: {fileID: 1824353237}
+--- !u!114 &1522883100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522883095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4192a29678ac9eb4496ab4b249aad454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataName: Object Viewed
+  updateDelay: 0.1
+  targetTransform: {fileID: 8505102389448359989}
+  rayDirection: {x: 0, y: 0, z: 1}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 6083
 --- !u!1 &1530805124
 GameObject:
   m_ObjectHideFlags: 0
@@ -14449,18 +14473,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1051618751568182115, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.4e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1051618751568182115, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0.0000000025783302
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1051618751568182115, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1e-45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1051618751568182115, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
       propertyPath: m_BoundingSphereOverride.z
+      value: 6.94e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2941408296318683121, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
+      propertyPath: OnZoneExit.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2941408296318683121, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
+      propertyPath: OnZoneEnter.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3243381817514691847, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
@@ -21347,6 +21379,10 @@ PrefabInstance:
     - target: {fileID: 10956780819227617, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990787109700080594, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
+      propertyPath: m_Importance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1051618751568182115, guid: bedb9199958bd6c4bb76977cb52d8f6c, type: 3}
       propertyPath: m_BoundingSphereOverride.w

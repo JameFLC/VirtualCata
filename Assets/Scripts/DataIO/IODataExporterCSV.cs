@@ -45,7 +45,7 @@ public class IODataExporterCSV : MonoBehaviour
         foreach (var recorder in recorderList)
         {
             IOData newData = recorder.getData();
-            CSVText += newData.SerializeData();
+            CSVText += newData.SerializeData(recorder.getUpdateDelay());
         }
         return CSVText;
     }
@@ -55,6 +55,7 @@ public class IODataExporterCSV : MonoBehaviour
         string exportPath = setupPath() + "/" + fileName + GetTime() + "." + extention;
         Debug.Log(exportPath);
         File.WriteAllText(exportPath, CSVText);
+        StartCoroutine(WaitToTranspose(exportPath));
     }
 
     private static string GetTime()
@@ -75,5 +76,9 @@ public class IODataExporterCSV : MonoBehaviour
         return Application.dataPath +"/";
 #endif
     }
-
+    private IEnumerator WaitToTranspose(string csvFile)
+    {
+        yield return new WaitForSeconds(10);
+        CSVTransposer.Transpose(csvFile);
+    }
 }

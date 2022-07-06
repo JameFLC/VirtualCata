@@ -63,7 +63,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 5091092ab33c52e4b9af4fafba5a8dc0, type: 2}
-  - {fileID: 2100000, guid: d04af38e18771484993309d253ef0b56, type: 2}
+  - {fileID: 2100000, guid: bda529bbd211a374397dc4be71d5d21b, type: 2}
   - {fileID: 2100000, guid: 2d72ebca98e5b5c46b6abfe72aca06ad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f534783d9601449a27e8a2c1e7442c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scale: {x: 1, y: 0.5, z: 1}
+  scale: {x: 0.5, y: 1, z: 1}
   duration: 1
   easing: 4
   overshoot: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f534783d9601449a27e8a2c1e7442c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scale: {x: 1, y: 0.5, z: 1}
+  scale: {x: 0.5, y: 1, z: 1}
   duration: 1
   easing: 4
   overshoot: 0
@@ -908,7 +908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36629b0f114de9543aa6d88258953505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doors: []
+  doors:
+  - {fileID: 5939861559689890055}
+  - {fileID: 5045576137999526878}
   doorDuration: 3
   doorEasing: 4
   doorOvershoot: 0
@@ -1025,7 +1027,7 @@ ReflectionProbe:
   m_BoxProjection: 1
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
-  m_Importance: 1
+  m_Importance: 20
   m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &2273233794566452198
 PrefabInstance:
@@ -1121,7 +1123,7 @@ PrefabInstance:
     - target: {fileID: 3989588203974538263, guid: df665991ec4c7e84a99e1b4221a6dd1c, type: 3}
       propertyPath: OnZoneExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 4526963232013239349, guid: e1647ca61d8d0ce44a525af519e9a9ef, type: 3}
+      objectReference: {fileID: 8516914277742781635}
     - target: {fileID: 3989588203974538263, guid: df665991ec4c7e84a99e1b4221a6dd1c, type: 3}
       propertyPath: OnZoneExit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1129,7 +1131,7 @@ PrefabInstance:
     - target: {fileID: 3989588203974538263, guid: df665991ec4c7e84a99e1b4221a6dd1c, type: 3}
       propertyPath: OnZoneEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 4526963232013239349, guid: e1647ca61d8d0ce44a525af519e9a9ef, type: 3}
+      objectReference: {fileID: 8516914277742781635}
     - target: {fileID: 3989588203974538263, guid: df665991ec4c7e84a99e1b4221a6dd1c, type: 3}
       propertyPath: OnZoneEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 

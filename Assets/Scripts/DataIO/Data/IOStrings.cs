@@ -15,8 +15,8 @@ public class IOStrings : IOData
         dataList.Add(data.GetString());
     }
 
-    public override string SerializeData()
+    public override string SerializeData(float updateDelay)
     {
-        return IODataSerializerCSV.SerializeStrings(_name, dataList);
+        return IODataSerializerCSV.SerializeStrings(_name, dataList,updateDelay);
     }
 }

@@ -11,12 +11,12 @@ public class IODataSerializerCSV : MonoBehaviour
     private static int decimalNumber = 3;
 
 
-    public static string SerializeFloats(string name, List<float> data)
+    public static string SerializeFloats(string name, List<float> data,float updateDelay)
     {
-        string serializedData = '"' + name + '"' + SerializeFloatsList(data);
+        string serializedData = '"' + name + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" +'"' + SerializeFloatsList(data);
         return serializedData;
     }
-    public static string SerializeVectors2(string name, List<Vector2> data)
+    public static string SerializeVectors2(string name, List<Vector2> data, float updateDelay)
     {
         string serializedData = null;
 
@@ -27,10 +27,10 @@ public class IODataSerializerCSV : MonoBehaviour
             datax.Add(item.x);
             datay.Add(item.y);
         }
-        serializedData += '"' + name + " X" + '"' + SerializeFloatsList(datax) + '"' + name + " Y" + '"' + SerializeFloatsList(datay);
+        serializedData += '"' + name + " X" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(datax) + '"' + name + " Y" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(datay);
         return serializedData;
     }
-    public static string SerializeVectors3(string name, List<Vector3> data)
+    public static string SerializeVectors3(string name, List<Vector3> data, float updateDelay)
     {
         string serializedData = null;
 
@@ -42,10 +42,10 @@ public class IODataSerializerCSV : MonoBehaviour
             datay.Add(item.y);
             dataz.Add(item.z);
         }
-        serializedData += '"' + name + " X" + '"' + SerializeFloatsList(datax)+ '"' + name + " Y" + '"' + SerializeFloatsList(datay)+ '"' + name + " Z" + '"' + SerializeFloatsList(dataz);
+        serializedData += '"' + name + " X" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(datax)+ '"' + name + " Y" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(datay)+ '"' + name + " Z" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(dataz);
         return serializedData;
     }
-    public static string SerializeVectors4(string name, List<Vector4> data)
+    public static string SerializeVectors4(string name, List<Vector4> data, float updateDelay)
     {
         string serializedData = null;
 
@@ -58,12 +58,12 @@ public class IODataSerializerCSV : MonoBehaviour
             dataz.Add(item.z);
             dataw.Add(item.w);
         }
-        serializedData += '"' + name + " X" + '"' + SerializeFloatsList(datax) + '"' + name + " Y" + '"' + SerializeFloatsList(datay) + '"' + name + " Z" + '"' + SerializeFloatsList(dataz) + '"' + name + " W" + '"' + SerializeFloatsList(dataw);
+        serializedData += '"' + name + " X" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(datax) + '"' + name + " Y" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(datay) + '"' + name + " Z" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(dataz) + '"' + name + " W" + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"' + SerializeFloatsList(dataw);
         return serializedData;
     }
-    public static string SerializeStrings(string name, List<string> data)
+    public static string SerializeStrings(string name, List<string> data, float updateDelay)
     {
-        string serializedData = '"' + name + '"';
+        string serializedData = '"' + name + " {" + updateDelay.ToString("F" + 3, CultureInfo.InvariantCulture) + "}" + '"';
         foreach (var item in data)
         {
             serializedData += "," + '"' + item + '"';
