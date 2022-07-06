@@ -31,7 +31,6 @@ Transform:
   - {fileID: 8331163731816623881}
   - {fileID: 8257194241137741895}
   - {fileID: 4459522142038235172}
-  - {fileID: 6077672733645107606}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -158,68 +157,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2866418966645343334, guid: 447f8232c6b138a42baff37daf9957e0, type: 3}
   m_PrefabInstance: {fileID: 6147662758582948897}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &6480720640328799487
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5892440098440660179}
-    m_Modifications:
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.9774091
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.337
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.535
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.70710677
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6636115718702513988, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-      propertyPath: m_Name
-      value: Towel Heater
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
---- !u!4 &6077672733645107606 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 984069712145638761, guid: ce0ca650930610e48ad3064ccddccced, type: 3}
-  m_PrefabInstance: {fileID: 6480720640328799487}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7391168852471734869
 PrefabInstance:
