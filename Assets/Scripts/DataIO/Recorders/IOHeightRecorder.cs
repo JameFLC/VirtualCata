@@ -21,8 +21,11 @@ public class IOHeightRecorder : IODataRecorder
         if (Time.time >= _lastTime + updateDelay)
         {
             _lastTime = Time.time;
+            if (playerController != null)
+            {
             IODataUnit currentData = new IODataUnit(playerController.height);
             data.AddData(currentData);
+            }
         }
 
     }

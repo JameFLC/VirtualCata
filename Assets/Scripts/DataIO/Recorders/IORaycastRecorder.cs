@@ -26,21 +26,24 @@ public class IORaycastRecorder : IODataRecorder
         if (Time.time >= _lastTime + updateDelay)
         {
             _lastTime = Time.time;
+            if (targetTransform != null)
+            {
             RaycastHit hit;
             // Does the ray intersect any objects excluding the player layer
             const int MAX_DISTANCE = 70;
-            if (Physics.Raycast(targetTransform.position, targetTransform.TransformDirection(rayDirection), out hit, MAX_DISTANCE, layerMask))
-            {
-                Debug.DrawRay(targetTransform.position, targetTransform.TransformDirection(rayDirection) * hit.distance, Color.cyan,updateDelay);
-                //Debug.Log("Did Hit");
-                Debug.Log(hit);
-                CheckHit(hit);
-            }
-            else
-            {
+                if (Physics.Raycast(targetTransform.position, targetTransform.TransformDirection(rayDirection), out hit, MAX_DISTANCE, layerMask))
+                {
+                    Debug.DrawRay(targetTransform.position, targetTransform.TransformDirection(rayDirection) * hit.distance, Color.cyan, updateDelay);
+                    //Debug.Log("Did Hit");
+                    Debug.Log(hit);
+                    CheckHit(hit);
+                }
+                else
+                {
 
-                Debug.DrawRay(targetTransform.position, targetTransform.TransformDirection(rayDirection) * 1000, Color.red, updateDelay);
-                //Debug.Log("Did not Hit");
+                    Debug.DrawRay(targetTransform.position, targetTransform.TransformDirection(rayDirection) * 1000, Color.red, updateDelay);
+                    //Debug.Log("Did not Hit");
+                }
             }
         }
     }

@@ -95,12 +95,13 @@ public class DynamicsManager : MonoBehaviour
     {
         IODataRecorderManager.DisableAllRecorders();
         dynamicsMover.MoveToEnd();
-        //floorLoader.UnloadAll();
+
         CSVExporter.ExportCSVFile();
         const float WAIT_FOR_MAIN_MENU = 20;
         yield return new WaitForSeconds(WAIT_FOR_MAIN_MENU);
         const int MAIN_MENU_SCENE_ID = 0;
         sceneTransitionSimple.GoToSceneByIndex(MAIN_MENU_SCENE_ID);
+        floorLoader.UnloadAll();
     }
     private void SetupNPCs()
     {

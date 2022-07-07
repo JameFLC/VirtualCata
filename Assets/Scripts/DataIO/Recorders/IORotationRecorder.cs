@@ -22,6 +22,7 @@ public class IORotationRecorder : IODataRecorder
         if (Time.time >= _lastTime + updateDelay)
         {
             _lastTime = Time.time;
+
             IODataUnit currentData = new IODataUnit(targetTransform.rotation.eulerAngles);
 
             data.AddData(currentData);

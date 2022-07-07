@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class IODataExporterCSV : MonoBehaviour
 {
-    [SerializeField] string bundlesFolder = "CSV";
+    [SerializeField] string bundlesDirectory = "CSV";
     [SerializeField] string fileName = "data";
     string extention = "csv";
 
@@ -15,8 +15,9 @@ public class IODataExporterCSV : MonoBehaviour
 
     public void ExportCSVFile()
     {
-        setupPath();
+        SetupPath();
         ExportCSV(GenerateCSV());
+       
     }
     public void LogCSVFile()
     {
@@ -24,9 +25,9 @@ public class IODataExporterCSV : MonoBehaviour
     }
 
 
-    private string setupPath()
+    private string SetupPath()
     {
-        string filePath = getPath() + bundlesFolder;
+        string filePath = getPath() + bundlesDirectory;
         // Create the proper folder if needed 
         if (!Directory.Exists(filePath))
         {
@@ -52,10 +53,13 @@ public class IODataExporterCSV : MonoBehaviour
     
     private void ExportCSV(string CSVText)
     {
-        string exportPath = setupPath() + "/" + fileName + GetTime() + "." + extention;
+        string exportPath = SetupPath() + "/" + fileName + GetTime() + "." + extention;
+
+
         Debug.Log(exportPath);
         File.WriteAllText(exportPath, CSVText);
         StartCoroutine(WaitToTranspose(exportPath));
+        CopyPathToClipboard();
     }
 
     private static string GetTime()
@@ -69,16 +73,21 @@ public class IODataExporterCSV : MonoBehaviour
         return Application.dataPath + "/";
 
 #elif UNITY_ANDROID
-        return Application.persistentDataPath;
+        return Application.persistentDataPath+"/";
 #elif UNITY_IPHONE
         return Application.persistentDataPath+"/";
 #else
         return Application.dataPath +"/";
 #endif
     }
+    private void CopyPathToClipboard()
+    {
+            GUIUtility.systemCopyBuffer = '"' + getPath() + bundlesDirectory + '"';
+    }
     private IEnumerator WaitToTranspose(string csvFile)
     {
         yield return new WaitForSeconds(10);
         CSVTransposer.Transpose(csvFile);
+
     }
 }

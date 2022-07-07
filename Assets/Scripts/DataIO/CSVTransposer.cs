@@ -17,7 +17,9 @@ using UnityEngine;
 
 class CSVTransposer
 {
-   public static void Transpose(string csvPath)
+    const char SEPARATOR = ',';
+
+    public static void Transpose(string csvPath)
     {
         StreamReader sr1 = new StreamReader(csvPath);  //create the streamreader to read the input .csv
         DataTable mydata = new DataTable();  //create an empty DataTable.....
@@ -33,7 +35,7 @@ class CSVTransposer
 
                 if (line != null && line != String.Empty) //check if there is content in the line
                 {
-                    arr = line.Split(',');    //split the line at each ";" and put the elements in the array
+                    arr = line.Split(SEPARATOR);    //split the line at each ";" and put the elements in the array
 
                     if (mydatasetup == false)   //after reading the first line add as many columns to your datatable as you will need..... 
                     {
@@ -66,7 +68,7 @@ class CSVTransposer
 
                     if (w < mydata.Rows.Count - 1)   //add a deliminator after each element because you want a .csv as output again 
                     {
-                        sb.Append(';');
+                        sb.Append(SEPARATOR);
                     }
                 }
                 sb.AppendLine(); //add another line to your stringbuilder in which you will store the next column of your datatable
