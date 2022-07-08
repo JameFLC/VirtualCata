@@ -23,14 +23,10 @@ public class IOTimeRecorder : IODataRecorder
         {
             _lastTime = Time.time;
 
-            if (_isEnabled && _hasBegun)
-                return;
-            if (!_isEnabled && !_hasBegun)
-                return;
             if (!_isEnabled && _hasBegun)
             {
                 _hasBegun = false;
-                _beginTime = Time.time;
+
                 string endingMessage = "Ending : [" + _beginTime.ToString("F" + 2, CultureInfo.InvariantCulture) + "]";
                 IODataUnit endingData = new IODataUnit(endingMessage);
                 Debug.Log(endingMessage);
@@ -42,9 +38,16 @@ public class IOTimeRecorder : IODataRecorder
                 data.AddData(durationData);
                 return;
             }
+
+            if (_isEnabled && _hasBegun)
+                return;
+            if (!_isEnabled && !_hasBegun)
+                return;
+            
             if (_isEnabled && !_hasBegun)
             {
                 _hasBegun = true;
+                _beginTime = Time.time;
                 string beginingMessage = "Begining : [" + Time.time.ToString("F" + 1, CultureInfo.InvariantCulture) + "]";
 
                 IODataUnit beginingData = new IODataUnit(beginingMessage);
@@ -56,6 +59,7 @@ public class IOTimeRecorder : IODataRecorder
 
                 return;
             }
+            
         }
     }
 }

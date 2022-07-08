@@ -68,6 +68,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1194912202744080384, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 1356992882723350195, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 1356992882723350195, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 3447758133747356265, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bffce9c56c4625348831c2a48f4e698d, type: 2}
+    - target: {fileID: 4027915913076464778, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 5087825064780467984, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0045fea62c7d6341acf3cf73f4cc21e, type: 2}
     - target: {fileID: 5591169175325213295, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -112,14 +136,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5705813869190701368, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
     - target: {fileID: 6289283391235889948, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
       propertyPath: m_Intensity
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 6575371038152382385, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
     - target: {fileID: 6758052739627092507, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
       propertyPath: m_Intensity
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 6974347874179343052, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
     - target: {fileID: 7974241849835547003, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
       propertyPath: m_Intensity
       value: 0.1
@@ -128,6 +164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Fire Off
       objectReference: {fileID: 0}
+    - target: {fileID: 8205913998063585875, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd572f108093b0a4289ca4831ffc77cd, type: 3}
 --- !u!4 &4479087398866292909 stripped

@@ -55,6 +55,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854388
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 11.437358
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.0011817
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 8.053632
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &1044019980357290489
@@ -120,6 +144,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -4.937364
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -2.9854288
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.5536315
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.0011816
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &1059861781623972327
@@ -135,7 +183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4479087398866292909, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4479087398866292909, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
       propertyPath: m_LocalPosition.x
@@ -176,6 +224,30 @@ PrefabInstance:
     - target: {fileID: 4479087398866292909, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825807501286747022, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -6.985821
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825807501286747022, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825807501286747022, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.4876337
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824151813117241689, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -5.001181
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824151813117241689, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824151813117241689, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.0013699532
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 451811cb292ea4740a1de6fcaceb7514, type: 3}
@@ -234,6 +306,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.9854212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 11.562632
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.0011815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 14.946368
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &1555104659719712830
@@ -249,7 +345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5570357921198131708, guid: 7eec00e2285ab2d4699ea2bbc2219229, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 5570357921198131708, guid: 7eec00e2285ab2d4699ea2bbc2219229, type: 3}
       propertyPath: m_LocalPosition.x
@@ -348,6 +444,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854388
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.437358
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.0011817
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 1.0536315
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &2732741221163627337
@@ -413,6 +533,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.062636
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -2.9854288
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 5.4463687
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.0011816
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &2874810170881875556
@@ -469,6 +613,30 @@ PrefabInstance:
     - target: {fileID: 3734286629935107008, guid: cc87563255d41f24f815133ca996536d, type: 3}
       propertyPath: m_Name
       value: Room Cheap Off (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.9854212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 8.062632
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.0011815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 11.446368
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
@@ -527,6 +695,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854388
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 7.937358
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.0011817
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.5536313
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &3407330562238023804
@@ -584,6 +776,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854388
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.437358
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.0011817
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 1.0536315
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603567992948671682, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bffce9c56c4625348831c2a48f4e698d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &5574233515232280065
@@ -597,30 +817,74 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 1971675121602859153, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
     - target: {fileID: 2035885384714106215, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5091092ab33c52e4b9af4fafba5a8dc0, type: 2}
+      objectReference: {fileID: 2100000, guid: bffce9c56c4625348831c2a48f4e698d, type: 2}
     - target: {fileID: 2183197812594572832, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_RootOrder
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437093673230162561, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3082004799946686584, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5091092ab33c52e4b9af4fafba5a8dc0, type: 2}
+    - target: {fileID: 3952632915607437904, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0045fea62c7d6341acf3cf73f4cc21e, type: 2}
     - target: {fileID: 4074578469830485355, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 4095032850939742479, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 4167591123748894299, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0045fea62c7d6341acf3cf73f4cc21e, type: 2}
     - target: {fileID: 4643565334120418792, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Center.z
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 4829943583084700268, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 4938906204448756621, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 5130525495381178264, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 5241766484404624951, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0045fea62c7d6341acf3cf73f4cc21e, type: 2}
+    - target: {fileID: 5318436235006610495, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
     - target: {fileID: 5988218766987307006, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5091092ab33c52e4b9af4fafba5a8dc0, type: 2}
+      objectReference: {fileID: 2100000, guid: bffce9c56c4625348831c2a48f4e698d, type: 2}
+    - target: {fileID: 6085553114201886568, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7382586743930354183, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Intensity
       value: 0.1
@@ -684,7 +948,7 @@ PrefabInstance:
     - target: {fileID: 8845870458315851738, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5091092ab33c52e4b9af4fafba5a8dc0, type: 2}
+      objectReference: {fileID: 2100000, guid: bffce9c56c4625348831c2a48f4e698d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
 --- !u!4 &4094282841654728736 stripped
@@ -746,6 +1010,30 @@ PrefabInstance:
     - target: {fileID: 3734286629935107008, guid: cc87563255d41f24f815133ca996536d, type: 3}
       propertyPath: m_Name
       value: Room Cheap Off (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -2.9854388
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 14.937358
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.0011817
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 11.553632
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
@@ -812,6 +1100,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -1.4373641
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -2.9854288
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.9463685
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -1.0011816
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &8512120417655978348
@@ -869,6 +1181,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Cheap Off (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.9854212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.5626316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.0011815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 7.9463687
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}
 --- !u!1001 &9088490455399374627
@@ -925,6 +1261,30 @@ PrefabInstance:
     - target: {fileID: 3734286629935107008, guid: cc87563255d41f24f815133ca996536d, type: 3}
       propertyPath: m_Name
       value: Room Cheap Off
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.9854212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906542276226812591, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 1.0626316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 1.0011815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211568446907336824, guid: cc87563255d41f24f815133ca996536d, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 4.4463687
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc87563255d41f24f815133ca996536d, type: 3}

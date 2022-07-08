@@ -476,9 +476,21 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: -6396709588311418020, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: -4471435680538712021, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -4069408504850985766, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -4069408504850985766, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: -966422250293021941, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_Layer
@@ -496,6 +508,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 617037372742091657, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_Name
       value: Emergency Door
@@ -512,9 +528,21 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1981726700668137362, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 4216763328080020781, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216763328080020781, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028453462084046784, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8145441809840847104, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_LocalRotation.w
@@ -531,6 +559,10 @@ PrefabInstance:
     - target: {fileID: 8225807254633312557, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8225807254633312557, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
