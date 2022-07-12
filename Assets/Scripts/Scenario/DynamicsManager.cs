@@ -8,7 +8,7 @@ public class DynamicsManager : MonoBehaviour
     [SerializeField] private FloorLoader floorLoader;
     [SerializeField] private DynamicsMover dynamicsMover;
     [SerializeField] private NPC_Manager NPCManager;
-    [SerializeField] private Transform fireParent;
+    [SerializeField] private Transform evacuationParent;
     [SerializeField] private IODataExporterCSV CSVExporter;
     [SerializeField] private SceneTransitionSimple sceneTransitionSimple;
     [SerializeField] private MoveTo smokeMover;
@@ -19,7 +19,7 @@ public class DynamicsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (floorLoader == null || dynamicsMover == null || NPCManager == null || fireParent == null || CSVExporter == null || sceneTransitionSimple == null || smokeMover == null)
+        if (floorLoader == null || dynamicsMover == null || NPCManager == null || evacuationParent == null || CSVExporter == null || sceneTransitionSimple == null || smokeMover == null)
         {
             Debug.LogError("Components Missing");
             Destroy(this);
@@ -44,7 +44,7 @@ public class DynamicsManager : MonoBehaviour
     }
     private void ToggleFire(bool enabled)
     {
-        fireParent.gameObject.SetActive(enabled);
+        evacuationParent.gameObject.SetActive(enabled);
     }
     IEnumerator BeggininngSequence()
     {
@@ -79,7 +79,12 @@ public class DynamicsManager : MonoBehaviour
         }
         yield return new WaitForSeconds(STEP_DELAY/2);
         onEvacuationBegin.Invoke();
-        EventManager.instance.StartEvacuation();
+
+
+        EventManager.instance.StartAlarm();
+
+
+
         smokeMover.duration = _simulatedProfile.smokeDuration;
         smokeMover.BeginMoveEase();
         yield return new WaitForSeconds(STEP_DELAY / 2);

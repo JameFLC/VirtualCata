@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Fancy Off (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 306
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
 --- !u!1001 &899317398948616671
@@ -111,6 +115,10 @@ PrefabInstance:
     - target: {fileID: 3734286629935107008, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
       propertyPath: m_Name
       value: Room Fancy Off (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 304
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
@@ -169,6 +177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Fancy Off (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 301
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
 --- !u!1001 &2761072778212532151
@@ -226,6 +238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Fancy Off (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 302
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
 --- !u!1001 &2971166210964286302
@@ -282,6 +298,10 @@ PrefabInstance:
     - target: {fileID: 3734286629935107008, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
       propertyPath: m_Name
       value: Room Fancy Off
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 307
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
@@ -348,6 +368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Fancy Off (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 310
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
 --- !u!1001 &4839166592151369301
@@ -413,6 +437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Fancy Off (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 312
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
 --- !u!1001 &5056005763147517220
@@ -470,6 +498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Fancy Off (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 303
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
 --- !u!1001 &5340460137700007398
@@ -489,7 +521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4479087398866292909, guid: 299981712092c794d85aca5d5837e796, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.1000004
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4479087398866292909, guid: 299981712092c794d85aca5d5837e796, type: 3}
       propertyPath: m_LocalPosition.y
@@ -538,11 +570,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1505256716703839359, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2183197812594572832, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437093673230162561, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4074578469830485355, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_RootOrder
@@ -551,6 +587,10 @@ PrefabInstance:
     - target: {fileID: 4643565334120418792, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Center.z
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6085553114201886568, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7382586743930354183, guid: aeecd9e3b435e8f408fc5ef472717763, type: 3}
       propertyPath: m_Intensity
@@ -727,6 +767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Fancy Off (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 308
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
 --- !u!1001 &8714155414587336148
@@ -792,6 +836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Fancy Off (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 311
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
 --- !u!1001 &8760738548335308088
@@ -848,6 +896,10 @@ PrefabInstance:
     - target: {fileID: 3734286629935107008, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
       propertyPath: m_Name
       value: Room Fancy Off (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858798072416815623, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
+      propertyPath: m_text
+      value: 305
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a13c0211ed1f3754ca65feef925bf9b1, type: 3}
