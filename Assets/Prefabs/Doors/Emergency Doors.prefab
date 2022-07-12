@@ -464,6 +464,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8405219177483566933, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8405219177483566933, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8405219177483566933, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: -8391222552659086748, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -491,6 +503,18 @@ PrefabInstance:
     - target: {fileID: -4069408504850985766, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -3739931273862818083, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 60.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3739931273862818083, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3739931273862818083, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -966422250293021941, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
       propertyPath: m_Layer
@@ -564,6 +588,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 9024988208591895977, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.037
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da1e7ba2a9c992743a7e766419a3d183, type: 3}
 --- !u!4 &1463117789812604761 stripped
@@ -633,7 +661,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.86005354, y: 3.5527137e-15, z: -0.050000083}
+  m_ConnectedAnchor: {x: 5.6399465, y: 3.5527137e-15, z: -1.0500001}
   m_UseSpring: 1
   m_Spring:
     spring: 6
@@ -897,7 +925,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.86005354, y: 3.5527137e-15, z: -0.04999982}
+  m_ConnectedAnchor: {x: 7.3600535, y: 3.5527137e-15, z: -1.0499998}
   m_UseSpring: 1
   m_Spring:
     spring: 6

@@ -128,7 +128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.975
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -182,7 +182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.974
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -427,6 +427,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8469713253641070113}
     m_Modifications:
+    - target: {fileID: 504432974748815978, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_BoxOffset.z
+      value: -1.55
+      objectReference: {fileID: 0}
     - target: {fileID: 7135421860280209015, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -489,6 +493,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8469713253641070113}
     m_Modifications:
+    - target: {fileID: 504432974748815978, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_BoxSize.x
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 504432974748815978, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_BoxSize.z
+      value: 2.7517679
+      objectReference: {fileID: 0}
+    - target: {fileID: 504432974748815978, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_BoxOffset.x
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 504432974748815978, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_BoxOffset.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7135421860280209015, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_RootOrder
       value: 5
