@@ -1390,6 +1390,33 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Next Scene",
+                    "type": "Button",
+                    "id": "3d197c09-c38b-44e5-b711-19ec80bd0383",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reload Scene",
+                    "type": "Button",
+                    "id": "eab6eb23-2604-4ea3-9906-1dd07f0f4fc9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Previous Scene",
+                    "type": "Button",
+                    "id": "39b777d7-30c5-4042-aab9-d87d6c4685ae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1434,6 +1461,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "Trigger Evacuation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8afbc26f-ac0d-476d-a9d7-54d75322b633",
+                    "path": "<Keyboard>/numpad8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Scene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "360afe36-2667-4fb8-8f85-5e7a81254e3d",
+                    "path": "<Keyboard>/numpad5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reload Scene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5dad8214-ada1-460c-8527-16d53d47bce3",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Previous Scene",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

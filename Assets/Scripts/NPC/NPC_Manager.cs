@@ -39,16 +39,30 @@ public class NPC_Manager : MonoBehaviour
     }
     public void RemoveNPCs(uint percent)
     {
-        int numberToRemove = NPCList.Count - Mathf.RoundToInt(NPCList.Count*(100.0f / percent));
+        int numberToRemove = NPCList.Count - Mathf.RoundToInt(NPCList.Count*(percent / 100f));
+
+        numberToRemove = numberToRemove > NPCList.Count ? NPCList.Count : numberToRemove; // Max Clamp
+
+        Debug.Log("Number of NPC : " + NPCList.Count);
+        Debug.Log("Percent of NPC to remove : " + percent);
+        Debug.Log("Number of NPC to remove : " + numberToRemove);
+
         if (numberToRemove > 0)
         {
-            for (int i = 1; i >= numberToRemove; i++)
+            Debug.Log("NPC Before removing loop");
+            for (int i = 1; i <= numberToRemove; i++)
             {
-                int ID = Mathf.Clamp((i / numberToRemove) + Random.Range(-1, 1), 0, NPCList.Count - 1);
+                int ID = Random.Range(0, NPCList.Count-i);
                 GameObject NPCToDelete = NPCList[ID].gameObject;
+
+                Debug.Log("NPC To remove is " + NPCList[ID].gameObject);
                 NPCList.RemoveAt(ID);
                 Destroy(NPCToDelete);
             }
+        }
+        else
+        {
+            Debug.Log("No NPC to remove");
         }
         
     }
@@ -95,7 +109,8 @@ public class NPC_Manager : MonoBehaviour
         foreach (NPC_DestinationSwitcher NPC in NPCList)
         {
             List<Transform> waypontList = new List<Transform>();
-            Transform waypoint = (Random.Range(0, 1) > 0.5) ? leftExit : rigthExit;
+            Transform waypoint = (Random.Range(0, 100) > 50) ? leftExit : rigthExit;
+            Debug.Log(NPC + " new destination is " + waypoint.name);
             waypontList.Add(waypoint);
             NPC.evacuationWaypoints = waypontList;
         }

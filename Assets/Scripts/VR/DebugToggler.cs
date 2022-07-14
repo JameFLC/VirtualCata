@@ -12,6 +12,7 @@ public class DebugToggler : MonoBehaviour
     private CanvasGroup _canvasGroup;
     private void Awake()
     {
+        
         toggleReference.action.started += ToggleGraphy;
         _canvasGroup = GetComponent<CanvasGroup>();
         _canvasGroup.interactable = false;
@@ -24,14 +25,23 @@ public class DebugToggler : MonoBehaviour
     }
     private void ToggleGraphy(InputAction.CallbackContext context)
     {
-        GraphyManager.Instance.ToggleActive();
-
-        _canvasGroup.interactable = !_canvasGroup.interactable;
-        _canvasGroup.alpha = Mathf.Abs(_canvasGroup.alpha-1);
-        if (profileTextDisplayer != null  && Mathf.Abs(_canvasGroup.alpha - 1) == 1)
+        if (Debug.isDebugBuild)
         {
-            profileTextDisplayer.Init();
+            GraphyManager.Instance.ToggleActive();
+
+            _canvasGroup.interactable = !_canvasGroup.interactable;
+            _canvasGroup.alpha = Mathf.Abs(_canvasGroup.alpha - 1);
+            if (profileTextDisplayer != null && Mathf.Abs(_canvasGroup.alpha - 1) == 1)
+            {
+                profileTextDisplayer.Init();
+            }
         }
+        else
+        {
+            _canvasGroup.interactable = false;
+            _canvasGroup.alpha = 0;
+        }
+        
 
     }
 }

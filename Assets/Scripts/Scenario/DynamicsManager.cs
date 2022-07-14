@@ -113,6 +113,6 @@ public class DynamicsManager : MonoBehaviour
         NPCManager.ToggleNPCs(true, true);
         NPCManager.SetupNPCExits(_simulatedProfile.evacuationDirection, _simulatedProfile.evacuationType);
         NPCManager.RemoveNPCs(_simulatedProfile.hotelFullness);
-        Debug.Log("NPC Loading");
+        Debug.Log("NPC Loading with " + _simulatedProfile.hotelFullness +"% fullness");
     }
 }

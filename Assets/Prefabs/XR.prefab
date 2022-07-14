@@ -477,6 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998948482718805235}
   - component: {fileID: 5344724122999850583}
+  - component: {fileID: 3719227514084273162}
   m_Layer: 0
   m_Name: SceneTransition Manager
   m_TagString: Untagged
@@ -511,6 +512,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 354d7b79e7230234c80b13d9136342ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3719227514084273162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347410195408593631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7875041d5487e4486ac342fe051838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneControl:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Next Scene Control
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f6708433-a769-46fb-acff-3d54b949ac7f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -2029966919929250229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  reloadSceneControl:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Reload Scene Control
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 223a613f-fbaa-488c-a3d7-5cebc9f045f7
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6706936239799317004, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  previousSceneControl:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Previous Scene Control
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: a48cf06f-886f-4550-8f76-f503af01ec4b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1248403093935578995, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1476789113362973958
 GameObject:
   m_ObjectHideFlags: 0
