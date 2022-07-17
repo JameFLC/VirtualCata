@@ -103,6 +103,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 73f60785ab2e52148b7463df9c84120f, type: 2}
+    - target: {fileID: 7974241849835547003, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Intensity
+      value: 6.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8011051674087454755, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
       propertyPath: m_Name
       value: Room Cheap On
