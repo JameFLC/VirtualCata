@@ -7296,7 +7296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3989588203974538263, guid: df665991ec4c7e84a99e1b4221a6dd1c, type: 3}
       propertyPath: OnZoneEnter.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3989588203974538263, guid: df665991ec4c7e84a99e1b4221a6dd1c, type: 3}
       propertyPath: OnZoneEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -13970,7 +13970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3989588203974538263, guid: df665991ec4c7e84a99e1b4221a6dd1c, type: 3}
       propertyPath: OnZoneEnter.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3989588203974538263, guid: df665991ec4c7e84a99e1b4221a6dd1c, type: 3}
       propertyPath: OnZoneEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -14223,6 +14223,7 @@ GameObject:
   - component: {fileID: 1171408612}
   - component: {fileID: 1171408617}
   - component: {fileID: 1171408616}
+  - component: {fileID: 1171408618}
   m_Layer: 0
   m_Name: Dynamics Manager
   m_TagString: Untagged
@@ -14312,6 +14313,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endingAlert: {fileID: 1171408618}
 --- !u!114 &1171408616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14388,6 +14390,20 @@ MonoBehaviour:
   beginningCheapElevator: {fileID: 631954016}
   simulationCheapOn: {fileID: 478435792}
   simulationCheapOff: {fileID: 1087181842}
+--- !u!114 &1171408618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171408610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b028b30fad9b874f943f59fa25c6167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alertManager: {fileID: 8505102389448359987}
+  endingAlert: {fileID: 1029178799}
 --- !u!1 &1198530146
 GameObject:
   m_ObjectHideFlags: 0

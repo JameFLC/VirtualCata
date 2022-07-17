@@ -10,10 +10,11 @@ public class DynamicsManager : MonoBehaviour
     [SerializeField] private NPC_Manager NPCManager;
     [SerializeField] private Transform evacuationParent;
     [SerializeField] private IODataExporterCSV CSVExporter;
-    [SerializeField] private SceneTransitionSimple sceneTransitionSimple;
+    [SerializeField] private SceneTransitionFade sceneTransitionSimple;
     [SerializeField] private MoveTo smokeMover;
     [SerializeField] private bool enableNPCAtTheBeginning = false;
     [SerializeField] private UnityEvent onEvacuationBegin;
+    [SerializeField] private EndingAlertDisplayer endingAlert;
     private ProfileData _simulatedProfile;
     private const float STEP_DELAY = 1.5f;
     // Start is called before the first frame update
@@ -99,9 +100,21 @@ public class DynamicsManager : MonoBehaviour
     IEnumerator EndSequence()
     {
         IODataRecorderManager.DisableAllRecorders();
+        CSVExporter.ExportCSVFile();
+
+
+        ViewFader.instance.FadeIn();
+
+        yield return new WaitForSeconds(ViewFader.instance.GetDuration() + 0.1f);
+
         dynamicsMover.MoveToEnd();
 
-        CSVExporter.ExportCSVFile();
+        ViewFader.instance.FadeOut();
+
+        endingAlert.DisplayEndingAlert();
+
+
+
         const float WAIT_FOR_MAIN_MENU = 20;
         yield return new WaitForSeconds(WAIT_FOR_MAIN_MENU);
         const int MAIN_MENU_SCENE_ID = 0;

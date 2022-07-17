@@ -11,6 +11,7 @@ public class EventManager : MonoBehaviour
     public event Action OnStartEvacuation;
     public event Action OnStartAlarm;
     public event Action OnTogglePathDebug;
+    public event Action OnPlayerCentered;
     // Singleton Setup
     private void Awake()
     {
@@ -28,4 +29,5 @@ public class EventManager : MonoBehaviour
     public void StartEvacuation() => OnStartEvacuation?.Invoke();
     public void StartAlarm() => OnStartAlarm?.Invoke();
     public void TogglePathDebug() => OnTogglePathDebug?.Invoke();
+    public void SetPlayerCentered() => OnPlayerCentered?.Invoke();
 }

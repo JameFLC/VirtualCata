@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraCenterer : MonoBehaviour
 {
     [SerializeField] private Camera cam;
+    
 
     private void Update()
     {
@@ -14,6 +15,7 @@ public class CameraCenterer : MonoBehaviour
             camLocalPosition.y = 0;
             transform.localPosition -= camLocalPosition;
             Debug.Log("Centered Player");
+            EventManager.instance.SetPlayerCentered();
             Destroy(this);
         }
     }

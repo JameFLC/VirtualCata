@@ -28,16 +28,16 @@ public class SceneTransitionDebug : MonoBehaviour
     private void LoadNextScene(InputAction.CallbackContext context)
     {
         if (Debug.isDebugBuild)
-            SceneTransition.instance.GoToNextScene();
+            SceneTransitionBase.instance.GoToNextScene();
     } 
     private void ReloadScene(InputAction.CallbackContext context)
     {
         if (Debug.isDebugBuild)
-            SceneTransition.instance.ReloadScene();
+            SceneTransitionBase.instance.ReloadScene();
     }
     private void LoadPreviousScene(InputAction.CallbackContext context)
     {
         if (Debug.isDebugBuild)
-            SceneTransition.instance.GoToPreviousScene();
+            SceneTransitionBase.instance.GoToPreviousScene();
     }
 }
