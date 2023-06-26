@@ -21,7 +21,7 @@ public class ControllerObjectMovement : MonoBehaviour
     private Transform followTarget;
     private Rigidbody RB;
 
-    private bool isToutchingAnything = false;
+    //private bool isToutchingAnything = false;
 
 
     // Start is called before the first frame update

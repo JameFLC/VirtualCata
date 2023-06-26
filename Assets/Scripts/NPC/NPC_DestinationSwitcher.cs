@@ -51,12 +51,14 @@ public class NPC_DestinationSwitcher : MonoBehaviour
     }
     private void GoToNextNormalWaypoint()
     {  
-        if (defaultWaypoints.Count > 0) _agent.destination = defaultWaypoints[_normalCount % defaultWaypoints.Count].position;
+        if (defaultWaypoints.Count > 0) 
+            _agent.destination = defaultWaypoints[_normalCount % defaultWaypoints.Count].position;
         ++_normalCount;
     }
     private void GoToNextEvacuationWaypoint()
     {
-        if (evacuationWaypoints.Count > 0) _agent.destination = evacuationWaypoints[_evacuationCount % evacuationWaypoints.Count].position;
+        if (evacuationWaypoints.Count > 0) 
+            _agent.destination = evacuationWaypoints[_evacuationCount % evacuationWaypoints.Count].position;
         ++_evacuationCount;
     }
 }

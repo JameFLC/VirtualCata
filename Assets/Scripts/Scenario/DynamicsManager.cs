@@ -15,6 +15,7 @@ public class DynamicsManager : MonoBehaviour
     [SerializeField] private bool enableNPCAtTheBeginning = false;
     [SerializeField] private UnityEvent onEvacuationBegin;
     [SerializeField] private EndingAlertDisplayer endingAlert;
+    //[SerializeField] private IODataRecorderManager dataRecorderMang;
     private ProfileData _simulatedProfile;
     private const float STEP_DELAY = 1.5f;
     // Start is called before the first frame update
@@ -52,7 +53,7 @@ public class DynamicsManager : MonoBehaviour
         
         //floorLoader.FloorLoading(_simulatedProfile.hotelType, 0, true);
         yield return new WaitForSeconds(STEP_DELAY);
-        dynamicsMover.MoveToBegining(_simulatedProfile.hotelType);
+        dynamicsMover.MoveToBegining();
         if (enableNPCAtTheBeginning)
         {
             SetupNPCs();
@@ -70,7 +71,7 @@ public class DynamicsManager : MonoBehaviour
         Debug.Log("Evacuation Begin");
         ToggleFire(true);
         
-        dynamicsMover.MoveToSimulation(_simulatedProfile.hotelType, _simulatedProfile.hotelLights);
+        dynamicsMover.MoveToSimulation(_simulatedProfile.hotelLights);
         Debug.Log("Simulation Sequence "+ProfileDataSerializer.Serialize(_simulatedProfile));
         IODataRecorderManager.EnableAllRecorders();
         

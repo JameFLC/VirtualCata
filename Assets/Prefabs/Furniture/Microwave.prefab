@@ -84,6 +84,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7515429101286732190, guid: a4fa7d9c73ab481479254d8c210af2cb, type: 3}
+      propertyPath: m_Name
+      value: Microwave_door
+      objectReference: {fileID: 0}
+    - target: {fileID: -7515429101286732190, guid: a4fa7d9c73ab481479254d8c210af2cb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -95,6 +99,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: d04af38e18771484993309d253ef0b56, type: 2}
+    - target: {fileID: -3983557974545419162, guid: a4fa7d9c73ab481479254d8c210af2cb, type: 3}
+      propertyPath: m_Name
+      value: Microwave_handle
+      objectReference: {fileID: 0}
     - target: {fileID: -3983557974545419162, guid: a4fa7d9c73ab481479254d8c210af2cb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647

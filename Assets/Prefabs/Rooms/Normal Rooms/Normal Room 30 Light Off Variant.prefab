@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5916838528649411670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2827169630999525622}
+    m_Modifications:
+    - target: {fileID: 431177648121129532, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_Name
+      value: Sink_closet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383604949916808934, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_Name
+      value: Sink
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666009192758956199, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_Name
+      value: Sink
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889611182472578958, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037881430000347658, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+      propertyPath: m_Name
+      value: Normal Room Details
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9743dfbe341aaaa4387e453ddf3d18a5, type: 3}
+--- !u!1001 &6000964285027969718
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 15487148366986738, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 321063967114179217, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137154870168423726, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165698817450021690, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: shower_doors_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814868049823200837, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031972372897719287, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151549618458207021, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716062373879394307, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733917310081382011, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785572024701143186, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819609783380829967, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: Mircrowave
+      objectReference: {fileID: 0}
+    - target: {fileID: 3091930795436623626, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371990564730859049, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430522587907551355, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463547592890191087, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3776761637891464766, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3897266385873374127, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d52e36f5597383b4aa94f76723b9f04b, type: 2}
+    - target: {fileID: 3993889359096648077, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225642920038802603, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245635940301181908, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: shower_tray
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347091793549431868, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: Microwave_door
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410626925213082731, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5161162733637943520, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5981907241701107984, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693143001829824730, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 6738067060880188860, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: shower_doors_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777148267820154465, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855484260715978239, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158369188080774712, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: Microwave_handle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214305112791357282, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413299309470010900, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: Normal Room 30 Light Off Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527187161880759519, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949781850584738757, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: WC_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219513153606496256, guid: 41704475259fd9f42901b044d847300f, type: 3}
+      propertyPath: m_Name
+      value: shower_drain
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 41704475259fd9f42901b044d847300f, type: 3}
+--- !u!4 &2827169630999525622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8393490303563747904, guid: 41704475259fd9f42901b044d847300f, type: 3}
+  m_PrefabInstance: {fileID: 6000964285027969718}
+  m_PrefabAsset: {fileID: 0}

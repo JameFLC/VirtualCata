@@ -10,6 +10,7 @@ public class SettingsUI : MonoBehaviour
 {
     [SerializeField] protected TextMeshProUGUI hotelTypeText;
     [SerializeField] private Button hotelTypeFancyButton;
+    [SerializeField] private Button hotelTypeNormalButton;//
     [SerializeField] private Button hotelTypeCheapButton;
     [Space]
     [SerializeField] protected TextMeshProUGUI hotelFullnessText;
@@ -51,7 +52,8 @@ public class SettingsUI : MonoBehaviour
 
         // Hotel Types
         hotelTypeFancyButton.onClick.AddListener(() => UpdateHotelType(0));
-        hotelTypeCheapButton.onClick.AddListener(() => UpdateHotelType(1));
+        hotelTypeNormalButton.onClick.AddListener(() => UpdateHotelType(1));//
+        hotelTypeCheapButton.onClick.AddListener(() => UpdateHotelType(2));
 
         // Lights Types
         lightsTypeOnButton.onClick.AddListener(() => UpdateHotelLights(0));
@@ -136,8 +138,16 @@ public class SettingsUI : MonoBehaviour
         }
         else
         {
-            hotelTypeText.text = "Délabré";
+            if (type == 1)
+            {
+                hotelTypeText.text = "Normal";//
+            }
+            else
+            {
+                hotelTypeText.text = "Délabré";
+            }
         }
+        
     }
     public void UpdateHotelFullness(uint percent)
     {

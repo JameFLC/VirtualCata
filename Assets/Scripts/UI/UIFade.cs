@@ -23,7 +23,8 @@ public class UIFade : MonoBehaviour
     {
         if (_currentTween !=null)
         {
-            _currentTween.Kill(false);
+            //_currentTween.Kill(false);
+            _currentTween.Kill(_isFading);//
         }
         ToogleHudInteraction(true);
         _UIGroup.DOFade(1, fadeInDuration)
@@ -33,7 +34,8 @@ public class UIFade : MonoBehaviour
     {
         if (_currentTween != null)
         {
-            _currentTween.Kill(false);
+            //_currentTween.Kill(false);
+            _currentTween.Kill(_isFading);//
         }
         ToogleHudInteraction(true);
         _UIGroup.alpha = 1;
@@ -43,7 +45,8 @@ public class UIFade : MonoBehaviour
     {
         if (_currentTween != null)
         {
-            _currentTween.Kill(false);
+            //_currentTween.Kill(false);
+            _currentTween.Kill(_isFading);//
         }
         ToogleHudInteraction(false);
 
@@ -58,7 +61,8 @@ public class UIFade : MonoBehaviour
     {
         if (_currentTween != null)
         {
-            _currentTween.Kill(false);
+            //_currentTween.Kill(false);
+            _currentTween.Kill(_isFading);//
         }
         ToogleHudInteraction(false);
         _UIGroup.alpha = 0;

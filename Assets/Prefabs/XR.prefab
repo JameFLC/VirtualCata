@@ -4825,7 +4825,7 @@ PrefabInstance:
       objectReference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
       propertyPath: trackpadAction.m_UseReference
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
       propertyPath: turnClickedAction.m_Reference
@@ -4845,6 +4845,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
       propertyPath: turnClickedAction.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
+      propertyPath: trackpadToutchedAction.m_Reference
+      value: 
+      objectReference: {fileID: -2863391944199480706, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 2807134371604405893, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}
+      propertyPath: trackpadToutchedAction.m_UseReference
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5685541147157021522, guid: 389f932309e41584aa0e0be9ef96bd51, type: 3}

@@ -26,5 +26,6 @@ public abstract class IODataRecorder : MonoBehaviour
     public void SetEnabled(bool enabled)
     {
         _isEnabled = enabled;
+        Debug.Log("_isEnabled : " + enabled.ToString());//
     } 
 }

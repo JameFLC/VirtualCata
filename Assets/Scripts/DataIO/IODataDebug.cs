@@ -5,8 +5,8 @@ using UnityEngine;
 public class IODataDebug : MonoBehaviour
 {
     [SerializeField] int datalenght = 15;
-    [SerializeField] int stringMedianLenght = 7;
-    [SerializeField] int stringVariation = 2;
+    //[SerializeField] int stringMedianLenght = 7;
+    //[SerializeField] int stringVariation = 2;
 
 
 

@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1961570759272243169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 24253783953104803, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 87963817603431221, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Door_hinge
+      objectReference: {fileID: 0}
+    - target: {fileID: 125810869943017337, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 268709893185311802, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 333909219705424587, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 981952597715611572, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: shower_doors_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317865974083449248, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871625735721668127, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122450044098099682, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Bathroom_door_hinge
+      objectReference: {fileID: 0}
+    - target: {fileID: 2142298557805265276, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234724798004215582, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303117907298473709, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Bathroom_Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357719734355925221, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575956877345399444, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Bathroom_door_frame
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821931305831323685, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839092052995043162, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: shower_tray
+      objectReference: {fileID: 0}
+    - target: {fileID: 2847314391325699017, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Closet_handle_rigth
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018604693476090544, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089708473341242627, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3141299685665437473, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1963b48e2e5edfc45827b5a641e1e717, type: 2}
+    - target: {fileID: 3286785939167178849, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391609548181751352, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Microwave_handle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609167072610815221, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3694723863195652775, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825409669930789796, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Closet_door_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 3991670207192546180, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052281011068554381, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070461339496008437, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262000320243840028, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608119822797627459, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Door_frame
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616066474374191410, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: shower_doors_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4715038271226946644, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4804899719454007665, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864090165158413039, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5472529933632881519, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.859443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559145101629772983, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.53000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659332291030259102, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961015177412831798, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6498094357945957486, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7041940307825956683, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7097591748178627726, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: shower_drain
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739308532338839311, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Mircrowave
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771906469951402065, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011051674087454755, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Fancy Room 30 Light On Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076415141808323644, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: Microwave_door
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760521674792201196, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_Name
+      value: WC_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994419102500374599, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+--- !u!4 &6246268982650248590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5591169175325213295, guid: 3cc60354cbf31d84798246369e9f6246, type: 3}
+  m_PrefabInstance: {fileID: 1961570759272243169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3659308794355115787
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6246268982650248590}
+    m_Modifications:
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591970279195145449, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5816999667496980424, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_Name
+      value: Fancy_sink
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593438653169841812, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_Name
+      value: Suspension_lamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542326242987776365, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}
+      propertyPath: m_Name
+      value: Room Fancy Details
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: db1bda1831c5aac43aad2eec1395d678, type: 3}

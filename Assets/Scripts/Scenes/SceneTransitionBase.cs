@@ -21,6 +21,7 @@ public abstract class SceneTransitionBase : MonoBehaviour
     public abstract void GoToNextScene();
     public abstract void GoToPreviousScene();
     public abstract void GoToSceneByIndex(int index);
+    public abstract void GoToSceneByChoice();
     public abstract void ReloadScene();
     protected int ClampBuidIndexes(int index) => Mathf.RoundToInt(Mathf.Clamp(index, 0, GetMaxBuidIndex()));
     protected int GetBuildIndex() => SceneManager.GetActiveScene().buildIndex;

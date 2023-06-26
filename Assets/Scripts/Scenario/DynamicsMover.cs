@@ -10,46 +10,29 @@ public class DynamicsMover : MonoBehaviour
     [SerializeField] Transform spawnPoint;
     [SerializeField] Transform endPoint;
     [Space(30)]
-    [SerializeField] private Transform beginningFancyElevator;
-    [SerializeField] private Transform simulationFancyOn;
-    [SerializeField] private Transform simulationFancyOff;
-    [Space(30)]
-    [SerializeField] private Transform beginningCheapElevator;
-    [SerializeField] private Transform simulationCheapOn;
-    [SerializeField] private Transform simulationCheapOff;
+    [SerializeField] private Transform beginningElevator;
+    [SerializeField] private Transform simulationOn;
+    [SerializeField] private Transform simulationOff;
     
 
-    public void MoveToBegining(uint hotelType)
+    public void MoveToBegining()
     {
         Vector3 teleportationOffset;
-        if (hotelType == 0)
-        {
-            teleportationOffset = beginningFancyElevator.position - spawnPoint.position;
-            
-        }
-        else
-        {
-            teleportationOffset = beginningCheapElevator.position - spawnPoint.position;
-        }
+        
+        teleportationOffset = beginningElevator.position - spawnPoint.position;
 
         XROrigin.position += teleportationOffset; // Teleport Player
 
         beginning.position += new Vector3(0, teleportationOffset.y, 0); // Teleport Beginning dynamics objects
         simulation.position += new Vector3(0, teleportationOffset.y, 0); // Teleport Simulation dynamics objects
     }
-    public void MoveToSimulation(uint hotelType, uint lightType)
+    public void MoveToSimulation(uint lightType)
     {
         float heighOffset = 0;
-        if (hotelType == 0)
-        {
-            if (lightType != 0)
-                heighOffset = simulationFancyOff.position.y - simulationFancyOn.position.y;
-        }
-        else
-        {
-            if (lightType != 0)
-                heighOffset = simulationCheapOff.position.y - simulationCheapOn.position.y;
-        }
+
+        if (lightType != 0)
+            heighOffset = simulationOff.position.y - simulationOn.position.y;
+
         XROrigin.position += new Vector3(0, heighOffset, 0); // Teleport Player
         simulation.position += new Vector3(0, heighOffset, 0); // Teleport Simulation dynamics objects
     }

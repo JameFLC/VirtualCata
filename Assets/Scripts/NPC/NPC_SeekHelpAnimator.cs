@@ -20,12 +20,25 @@ public class NPC_SeekHelpAnimator : MonoBehaviour
     {
         _anim.SetTrigger("SeekHelp");
     }
-    public void FollowPlayer()
+    public void FollowPlayer(Transform pos)
     {
-        List<Transform> newDestinations = new List<Transform>();
-        newDestinations.Add(player);
-        _destinationSwitcher.evacuationWaypoints = newDestinations;
+        //List<Transform> newDestinations = new List<Transform>();
+        //newDestinations.Add(player);
+        //_destinationSwitcher.evacuationWaypoints = newDestinations;
+        //_destinationSwitcher.updateDelay = 1;
+
+        _destinationSwitcher.defaultWaypoints.Add(pos);
         _destinationSwitcher.updateDelay = 1;
-        
+    }
+
+    public void UnfollowPlayer(Transform pos)
+    {
+        //List<Transform> newDestinations = new List<Transform>();
+        //newDestinations.Add(transform);
+        //_destinationSwitcher.evacuationWaypoints = newDestinations;
+        //_destinationSwitcher.updateDelay = 1;
+
+        _destinationSwitcher.defaultWaypoints.Add(pos);
+        _destinationSwitcher.updateDelay = 1;
     }
 }

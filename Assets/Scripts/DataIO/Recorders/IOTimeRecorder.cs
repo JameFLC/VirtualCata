@@ -16,6 +16,7 @@ public class IOTimeRecorder : IODataRecorder
 
     }
 
+    
     // Update is called once per frame
     void Update()
     {
@@ -27,7 +28,7 @@ public class IOTimeRecorder : IODataRecorder
             {
                 _hasBegun = false;
 
-                string endingMessage = "Ending : [" + _beginTime.ToString("F" + 2, CultureInfo.InvariantCulture) + "]";
+                string endingMessage = "Ending : [" + (Time.time).ToString("F" + 2, CultureInfo.InvariantCulture) + "]";
                 IODataUnit endingData = new IODataUnit(endingMessage);
                 Debug.Log(endingMessage);
                 data.AddData(endingData);

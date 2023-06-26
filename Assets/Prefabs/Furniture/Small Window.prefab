@@ -83,6 +83,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 62da6f129f03b41498c3b27bb06fe605, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: d0ec97f716679dd4c8c9de7580af6528, type: 2}
     - target: {fileID: 919132149155446097, guid: 62da6f129f03b41498c3b27bb06fe605, type: 3}
       propertyPath: m_Name
       value: Small Window

@@ -110,9 +110,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8469713253641070113}
     m_Modifications:
+    - target: {fileID: 1623916444573288566, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_frame_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969985124495733725, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_window_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010768174271754747, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emmergency_door_north_frame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3194560994074724562, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 3384373290826436138, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_door_left
+      objectReference: {fileID: 0}
     - target: {fileID: 4348879395110255366, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_Name
-      value: Emergency Doors
+      value: Emergency Doors North
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235239434275928291, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_frame_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641719027089545644, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_handle_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 5649401035575195259, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_frame_top
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049962620402419677, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_window_left
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_RootOrder
@@ -120,7 +156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.5
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -158,6 +194,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7052939577749537145, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_door_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132954799663935636, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327447598878293921, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency Door North
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020965525610615048, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_top_transom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282606774467161442, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_north_handle_left
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
 --- !u!4 &4700263032850065948 stripped
@@ -172,9 +228,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8469713253641070113}
     m_Modifications:
+    - target: {fileID: 1623916444573288566, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_frame_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969985124495733725, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_window_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010768174271754747, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_frames
+      objectReference: {fileID: 0}
+    - target: {fileID: 3194560994074724562, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 3384373290826436138, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_door_left
+      objectReference: {fileID: 0}
     - target: {fileID: 4348879395110255366, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_Name
-      value: Emergency Doors (1)
+      value: Emergency Doors South
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235239434275928291, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_frame_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641719027089545644, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_handle_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 5649401035575195259, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_frame_top
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049962620402419677, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_window_left
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_RootOrder
@@ -190,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6074406791544626255, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -220,6 +312,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7052939577749537145, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_door_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132954799663935636, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327447598878293921, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency Door South
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020965525610615048, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_top_transom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282606774467161442, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
+      propertyPath: m_Name
+      value: Emergency_door_south_handle_left
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb828c249b687b4fa0afdc3383fd31c, type: 3}
 --- !u!4 &5472781579866588239 stripped
@@ -234,6 +346,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8469713253641070113}
     m_Modifications:
+    - target: {fileID: -9058139689162088127, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -9058139689162088127, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -279,16 +399,56 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8391222552659086748, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_baseboard
+      objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -8257978010601859683, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8257978010601859683, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -7700850208073677699, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7700850208073677699, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6624397486542494879, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_wall_south
       objectReference: {fileID: 0}
     - target: {fileID: -6624397486542494879, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -6414186734731381376, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_Wall_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -6414186734731381376, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5760519900279193293, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d52e36f5597383b4aa94f76723b9f04b, type: 2}
+    - target: {fileID: -5567549040781124650, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -3532184194532199238, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_ceiling_north_south_04
       objectReference: {fileID: 0}
     - target: {fileID: -3532184194532199238, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -302,17 +462,41 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -2705019748903591342, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38804276f24eed8418418f4f2f4d80be, type: 2}
     - target: {fileID: -1807970279642858887, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1635480826155250056, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: -1263303452361830550, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_ceiling_north_south_03
       objectReference: {fileID: 0}
     - target: {fileID: -1263303452361830550, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -814656772219384679, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_floor_north_south_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -814656772219384679, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -523657464117790714, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -523657464117790714, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.9165
       objectReference: {fileID: 0}
     - target: {fileID: -151937655012565114, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_Layer
@@ -323,13 +507,33 @@ PrefabInstance:
       value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 97711592029150824, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_Wall_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 97711592029150824, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 180531556974176462, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_ceiling_east_west_01
       objectReference: {fileID: 0}
     - target: {fileID: 180531556974176462, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 236502078543691239, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 236502078543691239, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 840437056399726946, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d52e36f5597383b4aa94f76723b9f04b, type: 2}
     - target: {fileID: 919132149155446097, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_Name
       value: Floor Layout
@@ -339,33 +543,77 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 927108290366399298, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_ceiling_north_south_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 927108290366399298, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 944732331439892557, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_floor_east_west_02
       objectReference: {fileID: 0}
     - target: {fileID: 944732331439892557, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2226256450759356391, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_floor_east_west_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226256450759356391, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2550463727306718371, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_floor_north_south_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2550463727306718371, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147035383636976341, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_ceiling_east_west_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407973989198326909, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d52e36f5597383b4aa94f76723b9f04b, type: 2}
+    - target: {fileID: 4880099508911529307, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_floor_north_south_04
       objectReference: {fileID: 0}
     - target: {fileID: 4880099508911529307, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5175923558014041916, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_ceiling_north_south_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175923558014041916, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5335601853256353763, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_wall_west
       objectReference: {fileID: 0}
     - target: {fileID: 5335601853256353763, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 5847212032524750824, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d52e36f5597383b4aa94f76723b9f04b, type: 2}
+    - target: {fileID: 6606347814720052928, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d52e36f5597383b4aa94f76723b9f04b, type: 2}
     - target: {fileID: 7584974331630876006, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_Layer
       value: 13
@@ -373,6 +621,22 @@ PrefabInstance:
     - target: {fileID: 7584974331630876006, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 119
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022100855433385355, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38804276f24eed8418418f4f2f4d80be, type: 2}
+    - target: {fileID: 8247994413960396516, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d52e36f5597383b4aa94f76723b9f04b, type: 2}
+    - target: {fileID: 8264901399388547490, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38804276f24eed8418418f4f2f4d80be, type: 2}
+    - target: {fileID: 8340104197009201092, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
+      propertyPath: m_Name
+      value: Corridor_floor_north_south_03
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -808966925217029657, guid: f017d051c132eef43b39103a90b56eaf, type: 3}
@@ -427,9 +691,73 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8469713253641070113}
     m_Modifications:
+    - target: {fileID: 272333963151177090, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_railingpillar01_supports
+      objectReference: {fileID: 0}
     - target: {fileID: 504432974748815978, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_BoxOffset.z
       value: -1.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 749409138204553444, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_guardrail_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 832414995696801549, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_floor_top
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171610854538180427, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_floor_bottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253661093016820269, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_ceiling
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875643233352091192, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_railingpillar02_supports_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913025160661209147, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_railingpillar03_supports
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259739320996871188, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_big_railing
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867134153628916158, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_railingpillar02_supports_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5199567856796755292, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_flight_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349344534713636777, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_railing_pillar_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5662098434137528165, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_floor_middle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5693080910205324538, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_guardrail_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183363666662109585, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_walls
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615882818424837299, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_railing_pillar_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6911623496454953955, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_small_railing
       objectReference: {fileID: 0}
     - target: {fileID: 7135421860280209015, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_RootOrder
@@ -437,7 +765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7135421860280209015, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.5
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7135421860280209015, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_LocalPosition.y
@@ -475,9 +803,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7539484683406902278, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_guardrail_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099331669954524757, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157340315085486988, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_flight_01
+      objectReference: {fileID: 0}
     - target: {fileID: 8506320616477309946, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_Name
-      value: Staircase (1)
+      value: Staircase North
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573571576425397945, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_north_railing_pillar_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
@@ -493,6 +837,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8469713253641070113}
     m_Modifications:
+    - target: {fileID: 272333963151177090, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_railingpillar01_supports
+      objectReference: {fileID: 0}
     - target: {fileID: 504432974748815978, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_BoxSize.x
       value: 5.4
@@ -509,6 +857,66 @@ PrefabInstance:
       propertyPath: m_BoxOffset.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 749409138204553444, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_guardrail_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 832414995696801549, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_floor_top
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171610854538180427, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_floor_bottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253661093016820269, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_ceiling
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875643233352091192, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_railingpillar02_supports_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913025160661209147, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_railingpillar03_supports
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259739320996871188, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_big_railing
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867134153628916158, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_railingpillar02_supports_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5199567856796755292, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_flight_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349344534713636777, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_railing_pillar_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5662098434137528165, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_floor_middle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5693080910205324538, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_guardrail_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183363666662109585, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_walls
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615882818424837299, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_railing_pillar_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6911623496454953955, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_small_railing
+      objectReference: {fileID: 0}
     - target: {fileID: 7135421860280209015, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -523,7 +931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7135421860280209015, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.000002
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7135421860280209015, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -553,9 +961,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7539484683406902278, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_guardrail_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099331669954524757, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157340315085486988, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_flight_01
+      objectReference: {fileID: 0}
     - target: {fileID: 8506320616477309946, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
       propertyPath: m_Name
-      value: Staircase
+      value: Staircase South
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573571576425397945, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}
+      propertyPath: m_Name
+      value: Stairs_south_railing_pillar_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6abdd1279167f8a43af8f9e86e5947fe, type: 3}

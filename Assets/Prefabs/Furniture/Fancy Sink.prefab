@@ -84,32 +84,64 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7560790209610450263, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_faucet_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -7560790209610450263, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -6367920014697643172, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_faucet_04
       objectReference: {fileID: 0}
     - target: {fileID: -6367920014697643172, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -6164228013371164490, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_faucet_07
+      objectReference: {fileID: 0}
+    - target: {fileID: -6164228013371164490, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5925293292391053366, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_closet
       objectReference: {fileID: 0}
     - target: {fileID: -5925293292391053366, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -5494477947090435960, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_faucet_03
+      objectReference: {fileID: 0}
+    - target: {fileID: -5494477947090435960, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5006750169417003331, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_drain_03
       objectReference: {fileID: 0}
     - target: {fileID: -5006750169417003331, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -1136460780982521004, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_faucet_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -1136460780982521004, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -830508301277218862, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_drain_hole_02
       objectReference: {fileID: 0}
     - target: {fileID: -830508301277218862, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -124,12 +156,24 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1268954629776441799, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_drain_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268954629776441799, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1589048422473904749, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_drain_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589048422473904749, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665052174692076292, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_faucet_05
       objectReference: {fileID: 0}
     - target: {fileID: 1665052174692076292, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -140,8 +184,16 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5184468881472508998, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_faucet_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184468881472508998, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6960715854638250473, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
+      propertyPath: m_Name
+      value: Sink_drain_hole_01
       objectReference: {fileID: 0}
     - target: {fileID: 6960715854638250473, guid: 8541d971e52a76347960057f2e9922dd, type: 3}
       propertyPath: m_StaticEditorFlags

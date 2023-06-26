@@ -12,8 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial Scene.unity
     guid: 86cc4cd48702c3e4eb273640e04e692e
   - enabled: 1
-    path: Assets/Scenes/Simulation.unity
+    path: Assets/Scenes/SimulationFancy.unity
     guid: 5b21a2cfc4767d748a217f40fe4ffc3c
+  - enabled: 1
+    path: Assets/Scenes/SimulationNormal.unity
+    guid: e2f4ea3a8bfe73348bbf80d1bfe1fb2d
+  - enabled: 1
+    path: Assets/Scenes/SimulationCheap.unity
+    guid: d3e2c4cc3ffd3584a9568d0866831bef
   - enabled: 0
     path: Assets/Scenes/Begining.unity
     guid: 65c53fdc2a594474c83c11e4ab1fa59f

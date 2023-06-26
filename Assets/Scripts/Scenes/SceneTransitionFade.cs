@@ -19,6 +19,14 @@ public class SceneTransitionFade : SceneTransitionBase
     {
         StartCoroutine(LoadSceneAsync(index));
     }
+
+    public override void GoToSceneByChoice()
+    {
+        ProfileData profileData = ProfileFilesManager.LoadProfileData(ProfileStorageManager.instance.GetSimulatedProfileID());
+        StartCoroutine(LoadSceneAsync(((int)profileData.hotelType) + 2));
+    }
+
+
     public override void ReloadScene()
     {
         StartCoroutine(LoadSceneAsync(GetBuildIndex()));

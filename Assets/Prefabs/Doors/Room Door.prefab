@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5853979359577878308}
   - component: {fileID: 2020906756939341270}
   m_Layer: 10
-  m_Name: Frame Top
+  m_Name: Door_frame_top_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 7584004366247370485}
   - component: {fileID: 4349139897850375060}
   m_Layer: 9
-  m_Name: Hinge
+  m_Name: Door_hinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 8779043215470810430}
   - component: {fileID: 7731941741127395948}
   m_Layer: 9
-  m_Name: Door
+  m_Name: Door_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 6620830963409115220}
   - component: {fileID: 2181942140613919451}
   m_Layer: 9
-  m_Name: Handle
+  m_Name: Door_handle_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -671,7 +671,7 @@ GameObject:
   - component: {fileID: 5805731017619576117}
   - component: {fileID: 3762274504411407412}
   m_Layer: 10
-  m_Name: Frame Right
+  m_Name: Door_frame_right_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 1427951393599386072}
   - component: {fileID: 3762174146177598738}
   m_Layer: 10
-  m_Name: Door Frame
+  m_Name: Door_frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -808,7 +808,7 @@ GameObject:
   - component: {fileID: 3904580596171312767}
   - component: {fileID: 3678524528600809977}
   m_Layer: 10
-  m_Name: Frame Left
+  m_Name: Door_frame_left_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

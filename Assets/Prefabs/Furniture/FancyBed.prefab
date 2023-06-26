@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7154286982836905654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5547749228119595483}
+  m_Layer: 0
+  m_Name: FancyBed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5547749228119595483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7154286982836905654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.85, y: 0, z: 3.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5841810238413068667}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6240016596574977680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5547749228119595483}
+    m_Modifications:
+    - target: {fileID: -9009821509018693453, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 261151b466e0c4141971b2c91c7cd8ea, type: 2}
+    - target: {fileID: -9008684211412354299, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bedside_table_right
+      objectReference: {fileID: 0}
+    - target: {fileID: -8971456362498361106, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_left_detail_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00009942055
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.44
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8599327553192107930, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_right_detail_03
+      objectReference: {fileID: 0}
+    - target: {fileID: -8067664404477517411, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lampshade_left
+      objectReference: {fileID: 0}
+    - target: {fileID: -7858806801601222257, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 57aa6a005b4b31f458dc48235b73d754, type: 2}
+    - target: {fileID: -7704785652442347523, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bedspring
+      objectReference: {fileID: 0}
+    - target: {fileID: -6806190649441288131, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784ee43d3c899294d9a1ad5ead4447d6, type: 2}
+    - target: {fileID: -6217377268982432427, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f0af7a5c02c69248a1da560aa7496a0, type: 2}
+    - target: {fileID: -6217377268982432427, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784ee43d3c899294d9a1ad5ead4447d6, type: 2}
+    - target: {fileID: -6118251092667360678, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784ee43d3c899294d9a1ad5ead4447d6, type: 2}
+    - target: {fileID: -6048936714065274544, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f0af7a5c02c69248a1da560aa7496a0, type: 2}
+    - target: {fileID: -5737277403903489591, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f0af7a5c02c69248a1da560aa7496a0, type: 2}
+    - target: {fileID: -5544033555485520068, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_right_detail_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -5527703256928863189, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_left
+      objectReference: {fileID: 0}
+    - target: {fileID: -5312472982529861388, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 261151b466e0c4141971b2c91c7cd8ea, type: 2}
+    - target: {fileID: -5244845826160520404, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_left_detail_03
+      objectReference: {fileID: 0}
+    - target: {fileID: -4736249994442261488, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bedside_table_left
+      objectReference: {fileID: 0}
+    - target: {fileID: -4563163674771733956, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bedside_table_left_under
+      objectReference: {fileID: 0}
+    - target: {fileID: -4335712247135360583, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bedside_table_left
+      objectReference: {fileID: 0}
+    - target: {fileID: -4131077125737377079, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_right_detail_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -4030462491165833158, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784ee43d3c899294d9a1ad5ead4447d6, type: 2}
+    - target: {fileID: -3606231975316048839, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_left_base
+      objectReference: {fileID: 0}
+    - target: {fileID: -3510536213391456702, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_left_detail_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -3320893873372747378, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lampshade_right
+      objectReference: {fileID: 0}
+    - target: {fileID: -2957938805159806010, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784ee43d3c899294d9a1ad5ead4447d6, type: 2}
+    - target: {fileID: -2174412824507091750, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f0af7a5c02c69248a1da560aa7496a0, type: 2}
+    - target: {fileID: -2174412824507091750, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784ee43d3c899294d9a1ad5ead4447d6, type: 2}
+    - target: {fileID: -2168471553624435153, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 57aa6a005b4b31f458dc48235b73d754, type: 2}
+    - target: {fileID: -1440833164875243162, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ed872c9f67704d47a5e79268529de98, type: 2}
+    - target: {fileID: -138972372540540887, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Plaid
+      objectReference: {fileID: 0}
+    - target: {fileID: 286440230671456031, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a4e55d46886b6e4f84de6bbdb2cd22c, type: 2}
+    - target: {fileID: 919132149155446097, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: FancyBed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525717340901774529, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784ee43d3c899294d9a1ad5ead4447d6, type: 2}
+    - target: {fileID: 1702307433344218045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ec516c8ff4471194d8b4a139687cdc3f, type: 2}
+    - target: {fileID: 1702307433344218045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee13b0ef2ff3ceb44ad1be147a29af29, type: 2}
+    - target: {fileID: 1702307433344218045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: c8586cb648516504aa71654cd20afc00, type: 2}
+    - target: {fileID: 2209450003935641289, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 2253454763017860197, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bed_backrest
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741598558043833068, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784ee43d3c899294d9a1ad5ead4447d6, type: 2}
+    - target: {fileID: 2862589591431792157, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f0af7a5c02c69248a1da560aa7496a0, type: 2}
+    - target: {fileID: 2874121183228528868, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_right_ampule
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467606837411686900, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee13b0ef2ff3ceb44ad1be147a29af29, type: 2}
+    - target: {fileID: 4314474805917031899, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bed_cushions
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322773198188009280, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bedside_table_right_under
+      objectReference: {fileID: 0}
+    - target: {fileID: 4457621007115062806, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bedside_table_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404402467267024973, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_left_ampule
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831755910942376421, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bed_mattress
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290459219757008902, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458006719716391194, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Bed_blanket
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961403973100400158, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ed872c9f67704d47a5e79268529de98, type: 2}
+    - target: {fileID: 7606413805000669800, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Name
+      value: Table_lamp_right_base
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908540777734695697, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 261151b466e0c4141971b2c91c7cd8ea, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+--- !u!1 &536261049792075550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3320893873372747378, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2635215392927654691
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536261049792075550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7897929673211229287, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+--- !u!1 &1082989188474947466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6458006719716391194, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6998274775198418359
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082989188474947466}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4759143161526809968, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+--- !u!1 &1534754020110571305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4335712247135360583, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6243466590938232286
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534754020110571305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -1586541893199479967, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+--- !u!1 &1976210696979155625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3606231975316048839, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8614398454299194192
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976210696979155625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6906366732165191899, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+--- !u!1 &4546268403208652024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7606413805000669800, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6566718889464496496
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4546268403208652024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -5242438604934341219, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+--- !u!1 &5084876238379114253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8067664404477517411, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4354911299863761088
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5084876238379114253}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4338380639428157140, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+--- !u!4 &5841810238413068667 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7729400411379806342 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4457621007115062806, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1907355218646674336
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7729400411379806342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 2562282032101313251, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+--- !u!1 &7888311975085220683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4314474805917031899, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
+  m_PrefabInstance: {fileID: 6240016596574977680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &9043180719641145013
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888311975085220683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -3093151771749183449, guid: ac98d4a5dcf874346be6c19aad3069af, type: 3}
